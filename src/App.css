@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+/*-------------------------Navbar-------------------------*/
+.navbar-toggler {
+  margin-right: 10px;
+}
+.navbar-brand {
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+.nav-link {
+  padding: 0 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*-------------------------Hero/Landing Page-------------------------*/
+header {
+  height: 100vh;
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*----------------------------About Section---------------------------*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*----------------------------Projects Section---------------------------*/
 
-.App-link {
-  color: #61dafb;
-}
+/*----------------------------Contact Me Section---------------------------*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*-----------------------------------Footer--------------------------------*/
+footer {
+  background-color: rgb(121, 121, 121);
+  color: #2f3337;
+}
+footer a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+  padding-top: 20px;
+}
+footer a:last-of-type {
+  margin-left: 3rem;
+}
+footer p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 0;
+}
+.fa-linkedin,
+.fa-github {
+  color: #2f3337;
+}
+.fa-linkedin:hover {
+  color: #0e76a8;
+  opacity: 0.6;
+}
+.fa-github:hover {
+  color: rgb(150, 150, 150);
+  opacity: 0.8;
 }
