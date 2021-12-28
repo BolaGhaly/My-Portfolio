@@ -2,8 +2,8 @@ import React from "react";
 
 const Projects = () => {
     return (
-      <section id="projects">
-        <h2>Projects</h2>
+      <section className="projects-section" id="projects">
+        <h2 className="text-center">Projects</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
           nobis animi corrupti labore facere inventore placeat nisi dolores

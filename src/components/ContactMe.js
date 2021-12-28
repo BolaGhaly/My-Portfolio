@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-    <section id="contact-me">
-      <h2>Contact Me</h2>
+    <section className="contact-me-section" id="contact-me">
+      <h2 className="text-center">Contact Me</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis
         animi corrupti labore facere inventore placeat nisi dolores beatae,
