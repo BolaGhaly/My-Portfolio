@@ -20,6 +20,9 @@ const Header = () => {
         aspernatur error at porro facere, ipsum pariatur consequatur hic autem
         temporibus. Aliquid vel minima est.
       </p>
+      <button>
+        <a href="/TASKS - DELETE BEFORE UPLOAD" download>Resume</a>
+      </button>
     </header>
   );
 };

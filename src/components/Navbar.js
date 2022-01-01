@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md sticky-top">
       <div className="container-fluid">
-        <h1 className="navbar-brand">BG.</h1>
+        <h1 className="navbar-brand">BG</h1>
         <button
           className="navbar-toggler border-0 shadow-none"
           type="button"
@@ -26,6 +26,14 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link hover-underline-animation" href="#about">
                 About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link hover-underline-animation"
+                href="#skills"
+              >
+                Skills
               </a>
             </li>
             <li className="nav-item">

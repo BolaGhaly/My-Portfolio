@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;600;700&display=swap');
 :root {
-  --my-pt: 4rem;
+  --my-pt: 5rem;
   --navbar_footer_bg: #313131;
   --white-font: rgb(240, 240, 240);
-  --white-font-hover: rgb(210, 210, 210);
-  --font-shadow: black 0px 0px 10px;
+  --white-font-hover: rgb(200, 200, 200);
+  --black-font-shadow: black 0px 0px 10px;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -14,14 +14,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
-  background: rgb(47, 67, 83);
-  background: linear-gradient(
-    90deg,
-    rgba(47, 67, 83, 1) 0%,
-    rgba(35, 43, 50, 1) 100%
-  );
+  background-color: #e4e4e4;
+  font-family: 'Poppins', sans-serif;
+  color: black;
 }
 
 /* Hover Underline Animation */
@@ -29,7 +25,6 @@ body {
   display: inline-block;
   position: relative;
 }
-
 .hover-underline-animation:after {
   content: "";
   position: absolute;
@@ -42,7 +37,6 @@ body {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
@@ -52,70 +46,69 @@ body {
   padding: 0;
   margin: 0;
 }
-
 p {
   margin: 0;
 }
-
 /*-------------------------Navbar-------------------------*/
 .navbar {
   background-color: var(--navbar_footer_bg);
   min-height: 54px;
 }
-
 .navbar-toggler {
   margin-right: 10px;
 }
-
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28240, 240, 240, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
-
 .navbar-brand {
+  text-shadow: var(--black-font-shadow);
+  font-family: 'Inspiration', cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
   padding: 0;
   margin: 0 0 0 2rem;
   color: var(--white-font);
 }
-
 .nav-link {
   padding: 0 !important;
   color: var(--white-font) !important;
 }
-
 .nav-link:hover {
-  color: var(--white-font-hover);
+  color: var(--white-font-hover) !important;
 }
-
 .nav-item {
+  text-shadow: var(--black-font-shadow);
+  letter-spacing: 1px;
+  font-size: 1.12rem;
+  font-weight: 500;
   margin: 0 2.5rem 0 0;
   color: var(--white-font);
 }
-
 .nav-item:last-child {
   margin: 0 2rem 0 0;
 }
-
 /*-------------------------Hero/Landing Page-------------------------*/
 header {
   height: 100vh;
-  color: var(--white-font);
 }
-
 /*----------------------------About Section---------------------------*/
 .about-section {
   padding-top: var(--my-pt);
-  color: var(--white-font);
+}
+
+
+/*----------------------------skills Section---------------------------*/
+.skills-section {
+  padding-top: var(--my-pt);
 }
 
 /*----------------------------Projects Section---------------------------*/
 .projects-section {
   padding-top: var(--my-pt);
-  color: var(--white-font);
 }
 /*----------------------------Contact Me Section---------------------------*/
 .contact-me-section {
   padding-top: var(--my-pt);
-  color: var(--white-font);
 }
 /*-----------------------------------Footer--------------------------------*/
 footer {
@@ -159,7 +152,7 @@ footer p {
 /*-------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 767px) {
   .navbar-nav {
-    padding: 0.5rem 0 0 0;
+    padding: 1rem 0 0 0;
   }
   .nav-item {
     padding: 0 0 1rem 0;
