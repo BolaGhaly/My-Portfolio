@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :root {
   --my-pt: 5rem;
   --navbar_footer_bg: #313131;
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(200, 200, 200);
-  --black-font-shadow: black 0px 0px 10px;
+  --black-font-shadow: black 0px 0px 2px;
 }
 * {
   margin: 0;
@@ -61,9 +61,9 @@ p {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28240, 240, 240, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 .navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
   text-shadow: var(--black-font-shadow);
-  font-family: 'Inspiration', cursive;
-  font-weight: bolder;
   letter-spacing: 2px;
   padding: 0;
   margin: 0 0 0 2rem;
@@ -89,6 +89,7 @@ p {
 }
 /*-------------------------Hero/Landing Page-------------------------*/
 header {
+  background-color: tan;
   height: 100vh;
 }
 /*----------------------------About Section---------------------------*/
@@ -96,7 +97,9 @@ header {
   padding-top: var(--my-pt);
 }
 
-
+.about-section p {
+  padding: 25px 15% 0 15%;
+}
 /*----------------------------skills Section---------------------------*/
 .skills-section {
   padding-top: var(--my-pt);
