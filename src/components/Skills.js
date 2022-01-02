@@ -40,6 +40,21 @@ const Skills = () => {
           <li>
             <div className="skills-container-item"></div>
           </li>
+          <li>
+            <div className="skills-container-item"></div>
+          </li>
+          <li>
+            <div className="skills-container-item"></div>
+          </li>
+          <li>
+            <div className="skills-container-item"></div>
+          </li>
+          <li>
+            <div className="skills-container-item"></div>
+          </li>
+          <li>
+            <div className="skills-container-item"></div>
+          </li>
         </ul>
         {/* <div className="skills-container-item"></div>
         <div className="skills-item-2"></div>
@@ -50,6 +65,6 @@ const Skills = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Skills;

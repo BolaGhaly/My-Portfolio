@@ -36,7 +36,7 @@ const Projects = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div class="card w-50">
-              <img src={ProjectOneImage} class="card-img-top" alt="..." />
+              {/* <img src={ProjectOneImage} class="card-img-top" alt="..." /> */}
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
