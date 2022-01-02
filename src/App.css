@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
   --my-pt: 5rem;
-  --my-px: 25px 15% 0 15%;
   --navbar_footer_bg: #313131;
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(200, 200, 200);
@@ -38,7 +37,7 @@ body {
   height: 2px;
   bottom: -2.5px;
   left: 0;
-  background-color: #0C6EFD;
+  background-color: #0c6efd;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -51,7 +50,9 @@ body {
   padding: 0;
   margin: 0;
 }
-p {
+p,
+h1,
+h2 {
   margin: 0;
 }
 /*-------------------------Navbar-------------------------*/
@@ -104,13 +105,12 @@ header {
 }
 
 .about-section p {
-  padding: var(--my-px);
+  padding: 30px 15% 0 15%;
 }
 /*----------------------------skills Section---------------------------*/
 .skills-section {
   padding-top: var(--my-pt);
 }
-
 /*----------------------------Projects Section---------------------------*/
 .projects-section {
   padding-top: var(--my-pt);
@@ -133,7 +133,7 @@ form textarea::placeholder {
   color: rgb(50, 50, 50);
 }
 .contact-me-section {
-  padding: 25px 15% 80px 15%;
+  padding: 0 15% 80px 15%;
 }
 .contact-me-section h2 {
   padding-top: var(--my-pt);
@@ -169,7 +169,7 @@ form textarea::placeholder {
   margin-top: 30px !important;
   font-weight: 600;
   font-size: 1.2rem;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 50px;
 }
 /*-----------------------------------Footer--------------------------------*/

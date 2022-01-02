@@ -9,9 +9,9 @@ const About = () => {
           nobis animi corrupti labore facere inventore placeat nisi dolores
           beatae, tempora totam maxime at obcaecati harum commodi,
           necessitatibus voluptates! Eum ut illum fugiat debitis tenetur quam
-          aperiam repellat culpa quidem iste nam laborum libero placeat quia reiciendis. Ratione atque, aut
-          impedit adipisci esse rem omnis, facilis, amet fuga accusamus minima
-          sint.
+          aperiam repellat culpa quidem iste nam laborum libero placeat quia
+          reiciendis. Ratione atque, aut impedit adipisci esse rem omnis,
+          facilis, amet fuga accusamus minima sint.
         </p>
       </section>
     );

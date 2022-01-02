@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/Avatar-MakerSVG.svg";
+import Image from "../assets/Avatar-MakerSVG.svg";
 
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectOneImage from "../images/Avatar-Maker.svg";
+import ProjectOneImage from "../assets/Avatar-Maker.svg";
 
 const Projects = () => {
   return (
