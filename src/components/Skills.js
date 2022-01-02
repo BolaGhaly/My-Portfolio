@@ -18,7 +18,7 @@ const Skills = () => {
         aperiam unde obcaecati, facere dolor deserunt animi eligendi quasi!
         Natus deleniti similique repudiandae vel molestiae vitae, fuga dicta
         voluptatem, quia, totam facilis repellendus numquam perspiciatis id
-        nihil laborum placeat officiis suscipit sunt officia. Quae deserunt
+        nihil laborum placeat officiis suscipit sunt officia. Quae deserunt 
         voluptate recusandae voluptatum maiores expedita, praesentium natus
         quisquam autem illo velit fugit quis dicta aut ad, magnam reiciendis
         minus corporis labore molestiae cupiditate repellendus. Accusantium nam

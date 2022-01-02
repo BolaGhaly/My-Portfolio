@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md sticky-top">
+    <nav collapseOnSelect className="navbar navbar-expand-md sticky-top">
       <div className="container-fluid">
         <h1 className="navbar-brand">BG</h1>
         <button
@@ -29,10 +29,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link hover-underline-animation"
-                href="#skills"
-              >
+              <a className="nav-link hover-underline-animation" href="#skills">
                 Skills
               </a>
             </li>

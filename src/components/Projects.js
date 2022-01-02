@@ -21,7 +21,7 @@ const Projects = () => {
             aria-label="Slide 1"
           ></button>
           <button
-            type="button"
+            type="button" 
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="1"
             aria-label="Slide 2"
