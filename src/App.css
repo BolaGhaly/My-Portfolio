@@ -25,7 +25,12 @@ body {
   font-family: "Poppins", sans-serif;
   color: black;
 }
-
+h2 {
+  font-size: 2.125rem;
+}
+a {
+  text-decoration: none;
+}
 /* Hover Underline Animation */
 .hover-underline-animation {
   display: inline-block;
@@ -119,7 +124,7 @@ header {
 
 .skills-container-div {
   background-color: white;
-  border-radius: 40px;
+  border-radius: 30px;
   margin: 30px 15% 0 15%;
   padding: 30px;
 }
@@ -134,12 +139,14 @@ header {
 }
 .skills-container-ul li {
   border-radius: 15px;
-  /* background-color: #e4e4e4; */
-  background-color: #0f0d0d;
+  background-color: #414141;
   width: 110px;
-  /* border: 2px solid black; */
+  border: 1px solid rgb(12, 110, 253);
   text-align: center;
   padding-top: 10px;
+}
+.skills-container-ul li:hover {
+  box-shadow: -10px 10px 15px -10px rgb(31, 33, 36);
 }
 .skills-container-item img {
   width: 35px;
@@ -148,10 +155,23 @@ header {
 .skills-container-item p {
   padding: 10px 0 5px 0;
   color: rgb(255, 255, 255);
+  text-shadow: var(--black-font-shadow);
 }
 /*----------------------------Projects Section---------------------------*/
 .projects-section {
   padding-top: var(--my-pt);
+}
+
+#carouselExampleIndicators {
+    margin: 30px 15% 0 15%;
+
+  background-color: var(--navbar_footer_bg);
+}
+
+.card {
+  background-color: #e4e4e4;
+  margin: 50px auto;
+  width: 75%;
 }
 /*---------------------------- Contact Me Section: Form ---------------------------*/
 form div input,

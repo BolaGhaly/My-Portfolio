@@ -1,7 +1,16 @@
-1 - NAVBAR              1 Task: When link is clicked go to id and collapse navbar
+1 - NAVBAR              1 Task: When link is clicked go to id and collapse navbar - COMPLETED!!!
 2 - HEADER/HOME
-3 - ABOUT
-4 - Skills
-5 - PROJECTS
+3 - ABOUT               1 Task: Add the right info about me instead of lorem - COMPLETED!!!
+4 - Skills              1 Task: Add all the skills that I have - COMPLETED!!!
+
+5 - PROJECTS:           
+    2 Tasks: 
+        1) Add all the projects + deploy them. 
+        2) Edit Arrows
+
 6 - CONTACT ME          COMPLETED!!!
 7 - FOOTER              COMPLETED!!! 
+
+
+---------------------------General----------------------------
+1) Add underline under h2 elements

@@ -56,12 +56,6 @@ const Skills = () => {
             <div className="skills-container-item"></div>
           </li>
         </ul>
-        {/* <div className="skills-container-item"></div>
-        <div className="skills-item-2"></div>
-        <div className="skills-item-3"></div>
-        <div className="skills-item-4"></div>
-        <div className="skills-item-5"></div>
-        <div className="skills-item-6"></div> */}
       </div>
     </section>
   );
