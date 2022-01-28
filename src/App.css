@@ -139,9 +139,9 @@ header {
 }
 .skills-container-ul li {
   border-radius: 15px;
-  background-color: #414141;
+  background-color: #e4e4e4;
   width: 110px;
-  border: 1px solid rgb(12, 110, 253);
+  /* border: 1px solid rgb(12, 110, 253); */
   text-align: center;
   padding-top: 10px;
 }
@@ -154,8 +154,7 @@ header {
 }
 .skills-container-item p {
   padding: 10px 0 5px 0;
-  color: rgb(255, 255, 255);
-  text-shadow: var(--black-font-shadow);
+  color: rgb(0, 0, 0);
 }
 /*----------------------------Projects Section---------------------------*/
 .projects-section {
