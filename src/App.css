@@ -104,11 +104,56 @@ li {
   margin: 0 2rem 0 0;
 }
 /*-------------------------Hero/Landing Page-------------------------*/
-header {
+.header-container {
   background-color: tan;
-  /* background-color: rgb(236, 214, 185); */
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15%;
+  min-height: calc(100vh - 54px);
 }
+
+.header-buttons {
+  margin-top: 30px;
+}
+
+.header-resume-button {
+  background-color: #2fd2f2;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.header-resume-button a {
+  color: black;
+}
+
+.header-linkedin-button {
+  margin: auto 0;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.header-linkedin-button a {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  padding: 6px 10px;
+}
+
+.header-github-button {
+  background-color: #313131;
+  margin: auto 0;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.header-github-button a {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  padding: 6px 10px;
+}
+
+
 /*----------------------------About Section---------------------------*/
 .about-section {
   padding-top: var(--my-pt);
@@ -162,7 +207,7 @@ header {
 }
 
 #carouselExampleIndicators {
-    margin: 30px 15% 0 15%;
+  margin: 30px 15% 0 15%;
 
   background-color: var(--navbar_footer_bg);
 }
@@ -173,6 +218,10 @@ header {
   width: 75%;
 }
 /*---------------------------- Contact Me Section: Form ---------------------------*/
+.red-asterisk {
+  color: rgb(255, 0, 0);
+}
+
 form div input,
 form div textarea {
   background-color: white !important;
@@ -220,6 +269,15 @@ form textarea::placeholder {
 .form-item-4 {
   padding: 10px 20px;
 }
+
+.form-item-1-div label,
+.form-item-2-div label,
+.form-item-3-div label,
+.form-item-4-div label {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
 .form-submit-button {
   padding: 10px 60px;
   color: white;

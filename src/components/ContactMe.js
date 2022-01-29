@@ -12,40 +12,59 @@ const ContactMe = () => {
         id="contact-me-form"
       >
         <div className="form-item-1-div">
-          <input
-            className="form-item-1"
-            type="text"
-            name="name"
-            placeholder="Your Name *"
-            required
-          />
+          <label>
+            Your Name <span className="red-asterisk">*</span>
+          </label>
+          <div>
+            <input
+              className="form-item-1"
+              type="text"
+              name="name"
+              placeholder="Name"
+              required
+            />
+          </div>
         </div>
-
         <div className="form-item-2-div">
-          <input
-            className="form-item-2"
-            type="email"
-            name="email"
-            placeholder="Your Email *"
-            required
-          />
+          <label>
+            Your Email <span className="red-asterisk">*</span>
+          </label>
+          <div>
+            <input
+              className="form-item-2"
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
         </div>
 
         <div className="form-item-3-div">
-          <input
-            className="form-item-3"
-            name="subject"
-            placeholder="Subject *"
-            required
-          />
+          <label>
+            Subject <span className="red-asterisk">*</span>
+          </label>
+          <div>
+            <input
+              className="form-item-3"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
         </div>
         <div className="form-item-4-div">
-          <textarea
-            className="form-item-4"
-            name="message"
-            placeholder="Your Message *"
-            required
-          />
+          <label>
+            Your Message <span className="red-asterisk">*</span>
+          </label>
+          <div>
+            <textarea
+              className="form-item-4"
+              name="message"
+              placeholder="Message"
+              required
+            />
+          </div>
         </div>
       </form>
       <div className="d-flex">
