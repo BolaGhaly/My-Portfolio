@@ -153,7 +153,6 @@ li {
   padding: 6px 10px;
 }
 
-
 /*----------------------------About Section---------------------------*/
 .about-section {
   padding-top: var(--my-pt);
@@ -206,17 +205,36 @@ li {
   padding-top: var(--my-pt);
 }
 
-#carouselExampleIndicators {
+.project-cards-container {
   margin: 30px 15% 0 15%;
-
-  background-color: var(--navbar_footer_bg);
 }
 
 .card {
-  background-color: #e4e4e4;
-  margin: 50px auto;
-  width: 75%;
+  background-color: whitesmoke;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.4);
+
 }
+
+.project-live-text {
+  text-align: center;
+  width: 50%;
+  color: black !important;
+  background-color: #e4e4e4;
+  font-size: 20px;
+  padding: 10px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.project-github-logo {
+  text-align: center;
+  width: 50%;
+  color: black !important;
+  background-color: #e4e4e4;
+  font-size: 30px;
+  padding: 10px 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+}
+
 /*---------------------------- Contact Me Section: Form ---------------------------*/
 .red-asterisk {
   color: rgb(255, 0, 0);

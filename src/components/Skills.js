@@ -11,7 +11,7 @@ import REST_API_Logo from "../assets/skills/REST-API-Logo.png";
 import Postman_Logo from "../assets/skills/Postman-Logo.svg";
 import CPP_Logo from "../assets/skills/Cplusplus-Logo.svg";
 import Python_Logo from "../assets/skills/Python-Logo.svg";
-import Flask_Logo from "../assets/skills/Flask-Logo.svg";
+import Java_Logo from "../assets/skills/Java-Logo.svg";
 import Git_Logo from "../assets/skills/Git-logo.svg";
 
 
@@ -85,8 +85,8 @@ const Skills = () => {
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Flask_Logo} alt="Flask Logo" />
-              <p>Flask</p>
+              <img src={Java_Logo} alt="Java Logo" />
+              <p>Java</p>
             </div>
           </li>
           <li>
