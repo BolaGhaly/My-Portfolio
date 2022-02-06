@@ -8,7 +8,7 @@ const ContactMe = () => {
         className="contact-form"
         method="POST"
         action="https://formspree.io/f/mnqldkpe"
-        autocomplete="off"
+        autoComplete="off"
         id="contact-me-form"
       >
         <div className="form-item-1-div">
@@ -70,7 +70,7 @@ const ContactMe = () => {
       <div className="d-flex">
         <button
           type="submit"
-          class="form-submit-button m-auto bg-primary"
+          className="form-submit-button m-auto bg-primary"
           target="_blank"
           form="contact-me-form"
           rel="noopener noreferrer"

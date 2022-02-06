@@ -7,7 +7,7 @@ import Javascript_Logo from "../assets/skills/Javascript-Logo.svg";
 import ReactJS_Logo from "../assets/skills/ReactJS-Logo.svg";
 import NodeJS_Logo from "../assets/skills/NodeJS-Logo.svg";
 import PostgreSQL_Logo from "../assets/skills/PostgreSQL-Logo.svg";
-import REST_API_Logo from "../assets/skills/REST-API-Logo.png";
+import REST_API_Logo from "../assets/skills/REST-API-Logo.svg";
 import Postman_Logo from "../assets/skills/Postman-Logo.svg";
 import CPP_Logo from "../assets/skills/Cplusplus-Logo.svg";
 import Python_Logo from "../assets/skills/Python-Logo.svg";

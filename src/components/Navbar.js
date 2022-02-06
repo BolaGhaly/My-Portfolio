@@ -1,8 +1,28 @@
 import React from "react";
 
 const Navbar = () => {
+  // const testingHome = () => {
+  //   const navUl = document.getElementById("ul-nav-items");
+  //   console.log("here home");
+  //   console.log(navUl);
+    
+  // }
+
+  // const testingAbout = () => {
+  //   console.log("here about");
+  // }
+
+  //const navLinks = document.querySelectorAll(".nav-item");
+  //const menuToggle = document.getElementById("navbarSupportedContent");
+  // const bsCollapse = new bootstrap.Collapse(menuToggle);
+  // navLinks.forEach((l) => {
+  //   l.addEventListener("click", () => {
+  //     bsCollapse.toggle();
+  //   });
+  // });
+  //console.log(navLinks);
   return (
-    <nav collapseOnSelect className="navbar navbar-expand-md sticky-top">
+    <nav className="navbar navbar-expand-md sticky-top">
       <div className="container-fluid">
         <h1 className="navbar-brand">BG</h1>
         <button
@@ -17,14 +37,22 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto" id="ul-nav-items">
             <li className="nav-item">
-              <a className="nav-link hover-underline-animation" href="#">
+              <a
+                className="nav-link hover-underline-animation"
+                href="#"
+                // onClick={testingHome}
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hover-underline-animation" href="#about">
+              <a
+                className="nav-link hover-underline-animation"
+                href="#about"
+                // onClick={testingAbout}
+              >
                 About
               </a>
             </li>
