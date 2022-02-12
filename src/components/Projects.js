@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <section className="projects-section" id="projects">
-      <h2 className="text-center">Projects</h2>
+      <h2>Projects</h2>
       <div className="project-cards-container">
         <div
           id="carouselExampleIndicators"
@@ -48,8 +48,9 @@ const Projects = () => {
               </div>
             </div>
             <div className="carousel-item">
+              <div className="card">
                 <img src="..." className="card-img-top" alt="..." />
-                <h5 className="card-title text-center">Card title 1</h5>
+                <h5 className="card-title text-center">Card title 2</h5>
                 <div className="ms-5">
                   <p className="card-text">Technologies Used:</p>
                   <ul className="mt-3">
@@ -57,19 +58,22 @@ const Projects = () => {
                     <li>Testing 2</li>
                     <li>Testing 3</li>
                   </ul>
+                </div>
               </div>
             </div>
             <div className="carousel-item">
               <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
-                <h5 className="card-title text-center">Card title 1</h5>
-                <div className="ms-5">
-                  <p className="card-text">Technologies Used:</p>
-                  <ul className="mt-3">
-                    <li>Testing 1</li>
-                    <li>Testing 2</li>
-                    <li>Testing 3</li>
-                  </ul>
+                <div className="card">
+                  <img src="..." className="card-img-top" alt="..." />
+                  <h5 className="card-title text-center">Card title 3</h5>
+                  <div className="ms-5">
+                    <p className="card-text">Technologies Used:</p>
+                    <ul className="mt-3">
+                      <li>Testing 1</li>
+                      <li>Testing 2</li>
+                      <li>Testing 3</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

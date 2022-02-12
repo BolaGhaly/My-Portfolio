@@ -3,7 +3,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <section className="contact-me-section" id="contact-me">
-      <h2 className="text-center">Contact Me</h2>
+      <h2>Contact Me</h2>
       <form
         className="contact-form"
         method="POST"

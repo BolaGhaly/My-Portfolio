@@ -14,13 +14,10 @@ import Python_Logo from "../assets/skills/Python-Logo.svg";
 import Java_Logo from "../assets/skills/Java-Logo.svg";
 import Git_Logo from "../assets/skills/Git-logo.svg";
 
-
-
-
 const Skills = () => {
   return (
     <section className="skills-section" id="skills">
-      <h2 className="text-center">Skills &amp; Tools</h2>
+      <h2>Skills &amp; Tools</h2>
       <div className="skills-container-div">
         <ul className="skills-container-ul">
           <li>
