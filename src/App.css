@@ -285,6 +285,7 @@ form textarea::placeholder {
 .form-item-2,
 .form-item-3,
 .form-item-4 {
+  margin-top: 5px;
   padding: 10px 20px;
 }
 
