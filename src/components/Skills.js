@@ -93,6 +93,7 @@ const Skills = () => {
             </div>
           </li>
         </ul>
+        <p className="skills-p">...and learning more everyday!</p>
       </div>
     </section>
   );

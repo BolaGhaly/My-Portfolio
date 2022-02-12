@@ -202,6 +202,13 @@ li {
   padding-top: var(--my-pt);
 }
 
+.skills-p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 20px 10px 10px 25px;
+}
+
 .skills-container-div {
   background-color: white;
   border-radius: 30px;
