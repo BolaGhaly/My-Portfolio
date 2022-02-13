@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
-import Image from "../assets/Avatar-MakerSVG.svg";
 
 const Header = () => {
   return (
     <div className="header-container">
-      {/* <img src={Image} alt="my avatar" /> */}
       <div className="d-flex justify-content-center flex-column ps-3">
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
@@ -14,7 +12,7 @@ const Header = () => {
         </p>
         <div className="d-flex header-buttons">
           <button className="header-resume-button">
-            <a href="/TASKS - DELETE BEFORE UPLOAD" download>
+            <a href="/Bola_Ghaly_Resume.pdf" download>
               Resume
             </a>
           </button>

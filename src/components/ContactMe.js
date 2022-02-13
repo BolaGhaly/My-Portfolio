@@ -1,13 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 
 const ContactMe = () => {
+  const [formID, setFormID] = useState(
+    `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`
+  );
   return (
     <section className="contact-me-section" id="contact-me">
       <h2>Contact Me</h2>
       <form
         className="contact-form"
         method="POST"
-        action="https://formspree.io/f/mnqldkpe"
+        action= {formID}
         autoComplete="off"
         id="contact-me-form"
       >

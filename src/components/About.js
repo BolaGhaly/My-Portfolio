@@ -1,21 +1,18 @@
 import React from "react";
 
 const About = () => {
-    return (
-      <section className="about-section" id="about">
-        <h2>About Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          nobis animi corrupti labore facere inventore placeat nisi dolores
-          beatae, tempora totam maxime at obcaecati harum commodi,
-          necessitatibus voluptates! Eum ut illum fugiat debitis tenetur quam
-          aperiam repellat culpa quidem iste nam laborum libero placeat quia
-          reiciendis. Ratione atque, aut impedit adipisci esse rem omnis,
-          facilis, amet fuga accusamus minima sint.
-        </p>
-      </section>
-    );
-}
-
+  return (
+    <section className="about-section" id="about">
+      <h2>About Me</h2>
+      <p>
+        I am currently an undergraduate student at CUNY College of Staten Island
+        majoring in Computer Science. I am intellectually curious and passionate
+        about problem-solving and learning new technologies and tech stacks to expand my technical
+        skill set. I am currently seeking internships for
+        Summer of 2022.
+      </p>
+    </section>
+  );
+};
 
 export default About;
