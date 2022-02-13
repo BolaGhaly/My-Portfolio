@@ -204,7 +204,6 @@ li {
 
 .skills-p {
   font-size: 1.125rem;
-  font-weight: 500;
   letter-spacing: 1px;
   padding: 20px 10px 10px 25px;
 }
@@ -230,7 +229,6 @@ li {
   border-radius: 15px;
   background-color: #e4e4e4;
   width: 110px;
-  /* border: 1px solid rgb(12, 110, 253); */
   text-align: center;
   padding-top: 10px;
 }
@@ -247,6 +245,7 @@ li {
 .skills-container-item p {
   padding: 10px 0 5px 0;
   color: rgb(0, 0, 0);
+
 }
 
 /*----------------------------Projects Section---------------------------*/
@@ -442,6 +441,10 @@ footer p {
   h2 {
     font-size: 1.25rem;
     padding-left: 50px !important;
+  }
+
+  .skills-p {
+    text-align: center;
   }
 
   h2::before {
