@@ -5,11 +5,17 @@ const Projects = () => {
     <section className="projects-section" id="projects">
       <h2>Projects</h2>
       <div className="project-cards-container">
-          <div className="card">
+        <div className="card">
           <img src="..." className="card-img-top" alt="..." />
-          <h5 className="card-title text-center">Card title 1</h5>
+          <div>
+            <h5 className="card-title">NYC Tech Talent Pipeline</h5>
+            <p className="text-muted">Full Stack Web Development Bootcamp </p>
+          </div>
           <div className="ms-5">
-            <p className="card-text">Technologies Used:</p>
+            <p className="card-text">
+              Technologies Used: Node.js, Express.js, PostgreSQL, APIs, Postman,
+              Heroku
+            </p>
             <ul className="mt-3">
               <li>Testing 1</li>
               <li>Testing 2</li>
@@ -30,9 +36,12 @@ const Projects = () => {
         </div>
         <div className="card mt-5">
           <img src="..." className="card-img-top" alt="..." />
-          <h5 className="card-title text-center">Card title 2</h5>
+          <h5 className="card-title">Discord Bot</h5>
           <div className="ms-5">
-            <p className="card-text">Technologies Used:</p>
+            <p className="card-text">
+              Technologies Used: Python, Flask, HTML, CSS, Replit, APIs,
+              Postman, UptimeRobot, Discord
+            </p>
             <ul className="mt-3">
               <li>Testing 1</li>
               <li>Testing 2</li>
@@ -74,7 +83,7 @@ const Projects = () => {
             ></a>
           </div>
         </div>
-        </div>
+      </div>
     </section>
   );
 };
