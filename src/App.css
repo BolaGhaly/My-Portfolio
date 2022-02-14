@@ -55,6 +55,10 @@ a {
   text-decoration: none;
 }
 
+.red-asterisk {
+  color: rgb(255, 0, 0);
+}
+
 /* Hover Underline Animation */
 .hover-underline-animation {
   display: inline-block;
@@ -282,37 +286,6 @@ li {
 }
 
 /*---------------------------- Contact Me Section: Form ---------------------------*/
-.red-asterisk {
-  color: rgb(255, 0, 0);
-}
-
-form div input,
-form div textarea {
-  background-color: white !important;
-  border: 1px solid black;
-  width: 100%;
-  height: 100%;
-}
-
-form textarea {
-  resize: none;
-}
-
-/* form input::placeholder,
-form textarea::placeholder {
-  font-size: 16px !important;
-  font-weight: 400 !important;
-  letter-spacing: 1px;
-  color: rgb(50, 50, 50);
-} */
-
-::placeholder {
-  font-size: 16px !important;
-  font-weight: 400 !important;
-  letter-spacing: 1px;
-  color: rgb(50, 50, 50);
-}
-
 .contact-me-section {
   padding-top: var(--my-pt);
   margin: 0 15% 80px 15% !important;
@@ -327,6 +300,18 @@ form textarea::placeholder {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 25px;
+}
+
+form div input,
+form div textarea {
+  background-color: white !important;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+form textarea {
+  resize: none;
 }
 
 .form-item-1-div {
@@ -369,6 +354,16 @@ form textarea::placeholder {
   font-size: 1.2rem;
   border: 1px solid #000000;
   border-radius: 50px;
+}
+
+form ::-webkit-input-placeholder,
+form ::-moz-placeholder,
+form :-ms-input-placeholder,
+form :-moz-placeholder {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  color: rgb(255, 0, 0);
 }
 
 /*-----------------------------------Footer--------------------------------*/
