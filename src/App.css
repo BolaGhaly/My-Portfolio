@@ -205,7 +205,7 @@ li {
 .skills-p {
   font-size: 1.125rem;
   letter-spacing: 1px;
-  padding: 20px 10px 10px 30px;
+  padding: 20px 10px 10px 25px;
 }
 
 .skills-container-div {
@@ -243,7 +243,7 @@ li {
 }
 
 .skills-container-item p {
-  padding: 10px 0 5px 0;
+  padding: 10px 0 10px 0;
   color: rgb(0, 0, 0);
 }
 
@@ -300,8 +300,8 @@ form textarea {
 
 form input::placeholder,
 form textarea::placeholder {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
   letter-spacing: 1px;
   color: rgb(50, 50, 50);
 }
@@ -431,7 +431,7 @@ footer p {
 @media screen and (max-width: 499px) {
   .skills-container-ul li {
     width: 140px;
-    padding: 10px 0;
+    padding: 10px 0 5px;
   }
 }
 
