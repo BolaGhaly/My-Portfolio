@@ -1,15 +1,31 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
     <div className="header-container">
       <div className="d-flex justify-content-center flex-column ps-3">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          similique vitae ratione nulla eos, harum provident? Exercitationem
-          nihil aut tempore, voluptas quas et.
-        </p>
+        <h1>Hey! I'm Bola Ghaly</h1>
+        <h5 className="my-text-muted">Based in NYC</h5>
+        <h3 className="wrapperClassName">
+          I'm
+          <Typewriter
+            options={{
+              strings: [
+                "a College Student",
+                "a Front-end Developer",
+                "a Back-end Developer",
+                "a Full Stack Developer",
+              ],
+
+              autoStart: true,
+              loop: true,
+              delay: 100,
+              deleteSpeed: 100,
+            }}
+          />
+        </h3>
         <div className="d-flex header-buttons">
           <button className="header-resume-button">
             <a

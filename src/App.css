@@ -59,6 +59,10 @@ a {
   color: rgb(255, 0, 0);
 }
 
+.my-text-muted {
+  color: rgb(68, 68, 68);
+}
+
 /* Hover Underline Animation */
 .hover-underline-animation {
   display: inline-block;
@@ -158,24 +162,26 @@ li {
 }
 
 .header-resume-button {
-  background-color: #2fd2f2;
+  background-color: #313131;
   padding: 10px 20px;
   border-radius: 10px;
 }
 
 .header-resume-button a {
-  color: black;
+  text-shadow: var(--black-font-shadow);
+  font-weight: 500;
+  color: whitesmoke;
 }
 
 .header-linkedin-button {
   margin: auto 0;
-  background-color: black;
+  background-color: #313131;
   border-radius: 10px;
   margin-left: 20px;
 }
 
 .header-linkedin-button a {
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   font-size: 2rem;
   padding: 6px 10px;
 }
@@ -188,7 +194,7 @@ li {
 }
 
 .header-github-button a {
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   font-size: 2rem;
   padding: 6px 10px;
 }
