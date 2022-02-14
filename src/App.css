@@ -307,11 +307,14 @@ form textarea::placeholder {
 }
 
 .contact-me-section {
-  margin: 0 15% 80px 15%;
+  /* margin: 0 15% 80px 15%; */
+  padding-top: var(--my-pt);
+  margin: 0 15% 80px 15% !important;
+
 }
 
 .contact-me-section h2 {
-  margin: var(--my-pt) 0 0 0 !important;
+  margin-left: 0 !important;
 }
 
 .contact-form {
@@ -433,10 +436,7 @@ footer p {
     width: 140px;
     padding: 10px 0 5px;
   }
-}
-
-@media screen and (max-width: 460px) {
-  h2 {
+    h2 {
     font-size: 1.375rem;
     padding-left: 70px !important;
   }
