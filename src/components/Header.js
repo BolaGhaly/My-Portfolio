@@ -12,7 +12,10 @@ const Header = () => {
         </p>
         <div className="d-flex header-buttons">
           <button className="header-resume-button">
-            <a href="/Bola_Ghaly_Resume.pdf" download>
+            <a
+              href="https://drive.google.com/file/d/1JVhWrfQiDQKT4nEzv7L_ii_8lkwXy5lg/view?usp=sharing"
+              download
+            >
               Resume
             </a>
           </button>
