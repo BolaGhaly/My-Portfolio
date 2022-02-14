@@ -356,10 +356,7 @@ form textarea {
   border-radius: 50px;
 }
 
-form ::-webkit-input-placeholder,
-form ::-moz-placeholder,
-form :-ms-input-placeholder,
-form :-moz-placeholder {
+form ::-webkit-input-placeholder {
   font-size: 16px !important;
   font-weight: 400 !important;
   letter-spacing: 1px;
