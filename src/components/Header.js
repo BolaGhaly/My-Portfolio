@@ -8,24 +8,25 @@ const Header = () => {
       <div className="d-flex justify-content-center flex-column ps-3">
         <h1>Hey! I'm Bola Ghaly</h1>
         <h5 className="my-text-muted">Based in NYC</h5>
-        <h3 className="wrapperClassName">
-          I'm
+        <h4 className="typewritter-text">
           <Typewriter
             options={{
               strings: [
-                "a College Student",
-                "a Front-end Developer",
-                "a Back-end Developer",
-                "a Full Stack Developer",
+                "College Student",
+                "Front-end Developer",
+                "Back-end Developer",
+                "Full Stack Developer",
+                "Passionate",
+                "Problem Solver",
               ],
-
               autoStart: true,
               loop: true,
               delay: 100,
               deleteSpeed: 100,
+              skipAddStyles: true,
             }}
           />
-        </h3>
+        </h4>
         <div className="d-flex header-buttons">
           <button className="header-resume-button">
             <a

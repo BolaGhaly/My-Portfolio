@@ -149,12 +149,18 @@ li {
 
 /*-------------------------Hero/Landing Page-------------------------*/
 .header-container {
-  background-color: tan;
+  /* background-color: tan; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 15%;
   min-height: calc(100vh - 54px);
+}
+
+
+.typewritter-text {
+  word-spacing: 5px;
+  color: blue !important;
 }
 
 .header-buttons {
@@ -371,7 +377,6 @@ form textarea {
   letter-spacing: 1px;
   color: rgb(50, 50, 50);
 }
-
 
 /*-----------------------------------Footer--------------------------------*/
 footer {
