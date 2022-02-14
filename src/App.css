@@ -306,13 +306,13 @@ form textarea::placeholder {
   color: rgb(50, 50, 50);
 }
 
-textarea::-webkit-input-placeholder,
-textarea::-moz-placeholder,
-textarea::-ms-input-placeholder {
+form textarea::-webkit-input-placeholder,
+form textarea::-moz-placeholder,
+form textarea::-ms-input-placeholder {
   font-size: 16px !important;
   font-weight: 400 !important;
   letter-spacing: 1px;
-  color: rgb(50, 50, 50);
+  color: rgb(49, 32, 32);
 }
 
 .contact-me-section {
