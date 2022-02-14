@@ -60,20 +60,18 @@ const ContactMe = () => {
           <label>
             Your Message <span className="red-asterisk">*</span>
           </label>
-          <div>
             <textarea
               className="form-item-4"
               name="message"
               placeholder="Message"
               required
             />
-          </div>
         </div>
       </form>
       <div className="d-flex">
         <button
           type="submit"
-          className="form-submit-button m-auto bg-primary"
+          className="form-submit-button mx-auto bg-primary"
           target="_blank"
           form="contact-me-form"
           rel="noopener noreferrer"
