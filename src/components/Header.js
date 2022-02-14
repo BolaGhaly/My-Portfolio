@@ -17,7 +17,7 @@ const Header = () => {
               href="/Bola_Ghaly_Resume.pdf"
               target="_blank"
               rel="noreferrer"
-              download
+              download="Resume - Bola Ghaly"
             >
               Resume
             </a>
