@@ -299,7 +299,8 @@ form textarea {
 }
 
 form input::placeholder,
-form textarea::placeholder {
+form textarea::placeholder,
+div textarea::placeholder {
   font-size: 1rem !important;
   font-weight: 400 !important;
   letter-spacing: 1px;
@@ -307,10 +308,8 @@ form textarea::placeholder {
 }
 
 .contact-me-section {
-  /* margin: 0 15% 80px 15%; */
   padding-top: var(--my-pt);
   margin: 0 15% 80px 15% !important;
-
 }
 
 .contact-me-section h2 {
