@@ -306,11 +306,11 @@ form textarea::placeholder {
   color: rgb(50, 50, 50);
 }
 
-.form-item-4::placeholder {
+form div textarea::placeholder {
   font-size: 16px !important;
   font-weight: 400 !important;
   letter-spacing: 1px;
-  color: rgb(128, 13, 13);
+  color: rgb(50, 50, 50);
 }
 
 .contact-me-section {
