@@ -200,8 +200,10 @@ li {
 
 .about-section p {
   padding: 30px 15% 0 15%;
+  font-size: 17px;
 }
-/*----------------------------skills Section---------------------------*/
+
+/*----------------------------Skills Section---------------------------*/
 .skills-section {
   padding-top: var(--my-pt);
 }
