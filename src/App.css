@@ -306,7 +306,9 @@ form textarea::placeholder {
   color: rgb(50, 50, 50);
 }
 
-.form-item-4-div div textarea::placeholder {
+.form-item-4-div div textarea::-webkit-input-placeholder,
+.form-item-4-div div textarea::-moz-placeholder,
+.form-item-4-div div textarea::-ms-input-placeholder {
   font-size: 16px !important;
   font-weight: 400 !important;
   letter-spacing: 1px;
