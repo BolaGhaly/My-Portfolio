@@ -17,7 +17,7 @@ const Header = () => {
                 "Back-end Developer",
                 "Full Stack Developer",
                 "Passionate",
-                "Problem Solver",
+                "Problem Solver", 
               ],
               autoStart: true,
               loop: true,
