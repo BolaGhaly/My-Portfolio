@@ -299,6 +299,14 @@ li {
   border-left: 1px solid rgba(0, 0, 0, 0.4);
 }
 
+.project-title-container {
+  margin: 1rem 1rem 1rem 3rem;
+}
+
+.project-title {
+  margin-bottom: 0 !important;
+}
+
 /*---------------------------- Contact Me Section: Form ---------------------------*/
 .contact-me-section {
   padding-top: var(--my-pt);
