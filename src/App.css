@@ -157,6 +157,9 @@ li {
   min-height: calc(100vh - 54px);
 }
 
+.header-container-subcontainer {
+  padding-left: 1rem;
+}
 
 .header-h1-title {
   font-size: 30px;
@@ -180,7 +183,7 @@ li {
 
 .header-resume-button {
   background-color: #313131;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border-radius: 10px;
 }
 
@@ -199,7 +202,7 @@ li {
 
 .header-linkedin-button a {
   color: whitesmoke;
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding: 6px 10px;
 }
 
@@ -212,7 +215,7 @@ li {
 
 .header-github-button a {
   color: whitesmoke;
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding: 6px 10px;
 }
 
@@ -231,7 +234,8 @@ li {
   padding-top: var(--my-pt);
 }
 
-.skills-p {
+.skills-p,
+.projects-p {
   font-size: 1.125rem;
   letter-spacing: 1px;
   padding: 20px 10px 10px 25px;
@@ -437,7 +441,7 @@ footer {
 footer a {
   text-decoration: none;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding-top: 20px;
 }
 
@@ -447,7 +451,6 @@ footer a:last-of-type {
 
 footer p {
   font-size: 1.125rem;
-  font-weight: 600;
   padding: 10px 20px 10px 20px;
   margin-bottom: 0;
 }
@@ -457,14 +460,10 @@ footer p {
   color: var(--white-font);
 }
 
-.fa-linkedin:hover {
-  color: #01b9f1;
-  opacity: 0.6;
-}
-
+.fa-linkedin:hover,
 .fa-github:hover {
   color: #b8b8b8;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /*---------------------------------------------------------------*/
@@ -507,7 +506,8 @@ footer p {
 }
 
 @media screen and (max-width: 728px) {
-  .skills-p {
+  .skills-p,
+  .projects-p {
     text-align: center;
     padding: 20px 0 10px;
   }
@@ -535,6 +535,10 @@ footer p {
 }
 
 @media screen and (max-width: 325px) {
+  .header-container-subcontainer {
+    padding-left: 0;
+  }
+
   h2 {
     font-size: 1.25rem;
     padding-left: 50px !important;

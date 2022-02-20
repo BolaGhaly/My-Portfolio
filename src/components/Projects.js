@@ -112,8 +112,8 @@ const Projects = () => {
                     for each city found if the user is seaching by zip code or
                     the zip codes found if the user is searching by the city.
                     Postman was used for testing the APIs before using them in
-                    my web application by sending HTTP requests and examining the
-                    responses received.
+                    my web application by sending HTTP requests and examining
+                    the responses received.
                   </li>
                 </ul>
               </div>
@@ -161,17 +161,17 @@ const Projects = () => {
                     Used Replit to host and deploy a discord bot that was
                     created by using Python Flask web framework and REST APIs
                     found online, and Postman was used for testing the APIs
-                    before using them in my web application by sending HTTP requests
-                    and examining the responses received.
+                    before using them in my web application by sending HTTP
+                    requests and examining the responses received.
                   </li>
                   <li className="mb-3">
                     This discord bot is named WALL-E and it has 25+ fun,
-                    entertaining, and interesting bot commands!!
+                    entertaining, and interesting bot commands!
                   </li>
                   <li className="mb-3">
                     The website was built with simple HTML and CSS to render out
                     a user-friendly, interactive user interface (UI) and an
-                    invite link for everyone to join and have fun!!
+                    invite link for everyone to join and have fun!
                   </li>
                   <li className="mb-3">
                     UptimeRobot was used to ping my WALL-E bot server regularly
@@ -199,6 +199,9 @@ const Projects = () => {
             ></a>
           </div>
         </div>
+        <p className="projects-p">
+          ...and there are more projects on my github!
+        </p>
       </div>
     </section>
   );
