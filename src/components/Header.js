@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Header = () => {
   return (
     <div className="header-container">
-      <div className="d-flex justify-content-center flex-column ps-3 header-container-subcontainer">
+      <div className="d-flex justify-content-center flex-column header-container-subcontainer">
         <h1 className="header-h1-title">Hey! I'm Bola Ghaly</h1>
         <h5 className="header-h1-subtitle">Based in NYC</h5>
         <h4 className="typewritter-text">
@@ -28,7 +28,7 @@ const Header = () => {
             }}
           />
         </h4>
-        <div className="d-flex header-buttons">
+        <div className="header-buttons">
           <button className="header-resume-button">
             <a
               title="resume"
