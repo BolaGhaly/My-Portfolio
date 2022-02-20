@@ -141,7 +141,7 @@ const Projects = () => {
           <div className="project-cards-container-div">
             <div className="project-images-div">
               <img
-                src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645333389/Project_3_IMG_mncmez.png"
+                src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645334300/Project_3_IMG_sef3gy.png"
                 className="project-images"
                 alt="Screenshot of the website"
               />
