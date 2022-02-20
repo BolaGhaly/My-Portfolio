@@ -12,7 +12,7 @@ const Projects = () => {
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644901764/Project_1_IMG_q0uzjv.png"
                 className="project-images"
-                alt="Postman Screenshot of Heroku Link's '/players_cards' route (GET Request)"
+                alt="Card's Image"
               />
             </div>
             <div className="project-text-div">
@@ -79,7 +79,7 @@ const Projects = () => {
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644902357/Project_2_IMG_e9kkbi.png"
                 className="project-images"
-                alt="Screenshot of the website"
+                alt="Card's Image"
               />
             </div>
             <div className="project-text-div">
@@ -112,7 +112,7 @@ const Projects = () => {
                     for each city found if the user is seaching by zip code or
                     the zip codes found if the user is searching by the city.
                     Postman was used for testing the APIs before using them in
-                    my web application by sending requests and examining the
+                    my web application by sending HTTP requests and examining the
                     responses received.
                   </li>
                 </ul>
@@ -143,7 +143,7 @@ const Projects = () => {
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645334300/Project_3_IMG_sef3gy.png"
                 className="project-images"
-                alt="Screenshot of the website"
+                alt="Card's Image"
               />
             </div>
             <div className="project-text-div">
@@ -157,9 +157,26 @@ const Projects = () => {
                   APIs, Postman, UptimeRobot, Discord
                 </p>
                 <ul className="mt-3 project-lis">
-                  <li className="mb-3">Testing 1</li>
-                  <li className="mb-3">Testing 2</li>
-                  <li className="mb-3">Testing 3</li>
+                  <li className="mb-3">
+                    Used Replit to host and deploy a discord bot that was
+                    created by using Python Flask web framework and REST APIs
+                    found online, and Postman was used for testing the APIs
+                    before using them in my web application by sending HTTP requests
+                    and examining the responses received.
+                  </li>
+                  <li className="mb-3">
+                    This discord bot is named WALL-E and it has 25+ fun,
+                    entertaining, and interesting bot commands!!
+                  </li>
+                  <li className="mb-3">
+                    The website was built with simple HTML and CSS to render out
+                    a user-friendly, interactive user interface (UI) and an
+                    invite link for everyone to join and have fun!!
+                  </li>
+                  <li className="mb-3">
+                    UptimeRobot was used to ping my WALL-E bot server regularly
+                    and to keep it alive and running in the discord server 24/7.
+                  </li>
                 </ul>
               </div>
             </div>

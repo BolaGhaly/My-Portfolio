@@ -167,12 +167,10 @@ li {
   padding: 0;
   font-size: 20px;
   font-weight: 600;
-  font-family:'Times New Roman', Times, serif;
   color: rgb(68, 68, 68);
 }
 
 .typewritter-text {
-  word-spacing: 5px;
   color: #0000ff !important;
 }
 
