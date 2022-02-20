@@ -5,7 +5,74 @@ const Projects = () => {
     <section className="projects-section" id="projects">
       <h2>Projects</h2>
       <div className="project-cards-container">
-        <div className="card">
+        <div className="card project-cards">
+          <div className="project-cards-container-div">
+            <div className="project-images-div">
+              <img
+                src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644901764/Project_1_IMG_q0uzjv.png"
+                className="project-images"
+                alt="Postman Screenshot of Heroku Link's route (GET Request)"
+              />
+            </div>
+            <div className="project-text-div">
+              <div className="project-title-container">
+                <h5 className="project-title">
+                  NYC Tech Talent Pipeline - Capstone Project
+                </h5>
+                <p className="my-text-muted">
+                  Full Stack Web Development Bootcamp
+                </p>
+              </div>
+              <div>
+                <p className="card-text">
+                  Technologies Used: Node.js, Express.js, PostgreSQL, REST API,
+                  Postman, Heroku
+                </p>
+                <ul className="mt-3">
+                  <li className="mb-3">
+                    Collaborated with a group to create an online loot box
+                    simulator where a user can open different kinds of card
+                    packs (Starter, All-Stars, and Hall of Famers) to get a
+                    chance to own their favorite NBA player trading cards, using
+                    an API endpoint.
+                  </li>
+                  <li className="mb-3">
+                    Used Node.js and Express.js to create a server, deployed on
+                    Heroku, that uses custom routes and HTTP messages allowing
+                    data to be exchanged between client (front-end) and server
+                    (back-end).
+                  </li>
+                  <li className="mb-3">
+                    Utilized PostgreSQL database to store NBA player's
+                    information that is used in the front-end for the players'
+                    cards as an API endpoint and store the cards that the user
+                    gets when they open a card pack so that it is retrieved from
+                    the user's collection joint table and displayed in the "My
+                    Collection" page on the front-end.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="d-flex justify-content-center align-items-center">
+            <a
+              href="https://ttp-capstone-project-backend.herokuapp.com/"
+              className="project-live-text"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live
+            </a>
+            <a
+              href="https://github.com/BolaGhaly/TTP-Capstone-Project-Backend"
+              target="_blank"
+              rel="noreferrer"
+              className="fab fa-github project-github-logo"
+            ></a>
+          </div>
+        </div>
+        {/* <div className="card">
           <img
             src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644901764/Project_1_IMG_q0uzjv.png"
             className="project-images"
@@ -61,7 +128,7 @@ const Projects = () => {
               className="fab fa-github project-github-logo"
             ></a>
           </div>
-        </div>
+        </div> */}
         <div className="card mt-5">
           <img
             src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644902357/Project_2_IMG_e9kkbi.png"
