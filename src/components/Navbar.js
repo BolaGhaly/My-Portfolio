@@ -1,26 +1,6 @@
 import React from "react";
 
 const Navbar = () => {
-  // const testingHome = () => {
-  //   const navUl = document.getElementById("ul-nav-items");
-  //   console.log("here home");
-  //   console.log(navUl);
-    
-  // }
-
-  // const testingAbout = () => {
-  //   console.log("here about");
-  // }
-
-  //const navLinks = document.querySelectorAll(".nav-item");
-  //const menuToggle = document.getElementById("navbarSupportedContent");
-  // const bsCollapse = new bootstrap.Collapse(menuToggle);
-  // navLinks.forEach((l) => {
-  //   l.addEventListener("click", () => {
-  //     bsCollapse.toggle();
-  //   });
-  // });
-  //console.log(navLinks);
   return (
     <nav className="navbar navbar-expand-md sticky-top">
       <div className="container-fluid">
@@ -42,7 +22,6 @@ const Navbar = () => {
               <a
                 className="nav-link hover-underline-animation"
                 href="#"
-                // onClick={testingHome}
               >
                 Home
               </a>
@@ -51,7 +30,6 @@ const Navbar = () => {
               <a
                 className="nav-link hover-underline-animation"
                 href="#about"
-                // onClick={testingAbout}
               >
                 About
               </a>
