@@ -333,6 +333,10 @@ li {
   width: 50%;
 }
 
+ul.project-lis {
+  list-style-position: inside;
+}
+
 /*---------------------------- Contact Me Section: Form ---------------------------*/
 .contact-me-section {
   padding-top: var(--my-pt);

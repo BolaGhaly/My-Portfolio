@@ -29,7 +29,7 @@ const Projects = () => {
                   Technologies Used: Node.js, Express.js, PostgreSQL, REST APIs,
                   Postman, Heroku
                 </p>
-                <ul className="mt-3">
+                <ul className="mt-3 project-lis">
                   <li className="mb-3">
                     Collaborated with a group to create an online loot box
                     simulator where a user can open different kinds of card
@@ -96,7 +96,7 @@ const Projects = () => {
                   Technologies Used: HTML, CSS, ReactJS, REST APIs, Postman,
                   Netlify
                 </p>
-                <ul className="mt-3">
+                <ul className="mt-3 project-lis">
                   <li className="mb-3">
                     Built with HTML, CSS, and ReactJS to render a user-friendly,
                     interactive user interface (UI).
@@ -141,7 +141,7 @@ const Projects = () => {
           <div className="project-cards-container-div">
             <div className="project-images-div">
               <img
-                src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644901139/Project_3_IMG_ggc1yb.png"
+                src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645333389/Project_3_IMG_mncmez.png"
                 className="project-images"
                 alt="Screenshot of the website"
               />
@@ -156,7 +156,7 @@ const Projects = () => {
                   Technologies Used: Python, Flask, HTML, CSS, Replit, REST
                   APIs, Postman, UptimeRobot, Discord
                 </p>
-                <ul className="mt-3">
+                <ul className="mt-3 project-lis">
                   <li className="mb-3">Testing 1</li>
                   <li className="mb-3">Testing 2</li>
                   <li className="mb-3">Testing 3</li>
