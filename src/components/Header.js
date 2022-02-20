@@ -6,8 +6,10 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="d-flex justify-content-center flex-column ps-3">
-        <h1>Hey! I'm Bola Ghaly</h1>
-        <h5 className="my-text-muted">Based in NYC</h5>
+        <h1 className="header-h1-title">
+          Hey! I'm Bola Ghaly
+        </h1>
+        <h5 className="header-h1-subtitle">Based in NYC</h5>
         <h4 className="typewritter-text">
           <Typewriter
             options={{
@@ -17,7 +19,8 @@ const Header = () => {
                 "Back-end Developer",
                 "Full Stack Developer",
                 "Passionate",
-                "Problem Solver", 
+                "Problem Solver",
+                "Team Player",
               ],
               autoStart: true,
               loop: true,
