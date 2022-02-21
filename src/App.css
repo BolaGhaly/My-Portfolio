@@ -148,7 +148,7 @@ li {
 }
 
 /*-------------------------Hero/Landing Page-------------------------*/
-.header-container {
+.header-container-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,12 +157,27 @@ li {
   flex-direction: column;
 }
 
+.header-container-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.header-img {
+  border-radius: 50%;
+  width: 180px !important;
+  height: fit-content;
+}
+
 .header-container-subcontainer {
   padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0 50px;
 }
 
 .header-h1-title {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .header-h1-subtitle {
@@ -183,6 +198,8 @@ li {
 .header-buttons {
   display: flex;
   flex-direction: row;
+  flex: 1 0;
+  align-items: flex-end !important;
 }
 
 .header-resume-button {
@@ -198,7 +215,6 @@ li {
 }
 
 .header-linkedin-button {
-  margin: auto 0;
   background-color: #313131;
   border-radius: 10px;
   margin-left: 15px;
@@ -212,7 +228,6 @@ li {
 
 .header-github-button {
   background-color: #313131;
-  margin: auto 0;
   border-radius: 10px;
   margin-left: 15px;
 }
@@ -226,11 +241,13 @@ li {
 /* Mouse Animation */
 /* Credits/Source: https://codepen.io/rightblog/pen/EagNMN/ */
 .mouse_scroll {
+  position: absolute;
   display: block;
   margin: 0 auto;
-  width: 24px;
-  height: 100px;
-  margin-top: 125px;
+  width: 25px;
+  height: 120px;
+  /* margin-top: 125px; */
+  bottom: 0;
 }
 
 .m_scroll_arrows {
@@ -673,7 +690,8 @@ footer p {
   opacity: 1;
 }
 
-/*---------------------------------------------------------------*/
+/*--------------------- Media Queries -----------------*/
+/*-----  Width  */
 @media screen and (max-width: 1300px) {
   .project-cards-container-div {
     display: flex;
@@ -704,6 +722,23 @@ footer p {
   }
   .nav-link {
     margin: 0 0 0 2rem;
+  }
+
+  .header-container-2 {
+    margin: 20px 0;
+    flex-direction: column;
+  }
+
+  .header-container-subcontainer {
+    margin: 50px 0 0 0;
+  }
+
+  .header-img {
+    margin: 0 auto;
+  }
+
+  .header-buttons {
+    margin-top: 30px;
   }
 
   .form-item-1-div,
@@ -742,10 +777,6 @@ footer p {
 }
 
 @media screen and (max-width: 325px) {
-  .header-buttons {
-    margin-top: 20px;
-  }
-
   .header-resume-button {
     padding: 8px 15px;
     border-radius: 10px;
@@ -790,5 +821,12 @@ footer p {
   h2::before {
     top: 12px;
     width: 40px;
+  }
+}
+
+/*-----  Height  */
+@media screen and (max-width: 915px) and  (max-height: 750px) {
+  .mouse_scroll {
+    display: none;
   }
 }
