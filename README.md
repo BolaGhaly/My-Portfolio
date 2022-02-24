@@ -2,7 +2,10 @@
   <a href="https://bolaghaly.netlify.app/"> <img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg"/> </a>
   <img src="https://img.shields.io/github/license/bolaghaly/My-Portfolio.svg"/>
 </div>
-  
+ 
+## Technologies Used:
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
