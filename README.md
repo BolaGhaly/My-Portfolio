@@ -1,5 +1,5 @@
 <div>
-  <a href="https://bolaghaly.netlify.app/"> <img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg"/> </a>
+  <a href="https://bolaghaly.netlify.app/"> <img src="https://img.shields.io/website-up-down-blue-red/http/monip.org.svg"/> </a>
   <img src="https://img.shields.io/github/license/bolaghaly/My-Portfolio.svg"/>
 </div>
  
