@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
-    <div className="header-container-1">
+    <div className="header-container-1 s-1">
       <div className="header-container-2">
         <img
           src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645397697/IMG_2_v5ieug.jpg"

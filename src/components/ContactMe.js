@@ -5,12 +5,12 @@ const ContactMe = () => {
     `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`
   );
   return (
-    <section className="contact-me-section" id="contact-me">
+    <section className="contact-me-section s-5" id="contact-me">
       <h2>Contact Me</h2>
       <form
         className="contact-form"
         method="POST"
-        action= {formID}
+        action={formID}
         autoComplete="off"
         id="contact-me-form"
       >

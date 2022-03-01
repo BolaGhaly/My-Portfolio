@@ -21,7 +21,7 @@ import Trello_Logo from "../assets/skills/Trello-Logo.svg";
 
 const Skills = () => {
   return (
-    <section className="skills-section" id="skills">
+    <section className="skills-section s-3" id="skills">
       <h2>Skills &amp; Tools</h2>
       <div className="skills-container-div">
         <ul className="skills-container-ul">
