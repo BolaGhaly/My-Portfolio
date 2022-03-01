@@ -14,6 +14,7 @@ export class App extends React.Component {
     const config = {
       origin: "bottom",
       duration: 1000,
+      delay: 400,
       easing: "ease",
       reset: true,
     };
