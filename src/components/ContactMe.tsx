@@ -4,6 +4,7 @@ const ContactMe = () => {
   const [formID, setFormID] = useState(
     `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`
   );
+
   return (
     <section className="contact-me-section s-5" id="contact-me">
       <h2>Contact Me</h2>
@@ -74,9 +75,8 @@ const ContactMe = () => {
         <button
           type="submit"
           className="form-submit-button m-auto bg-primary"
-          target="_blank"
+          formTarget="_blank"
           form="contact-me-form"
-          rel="noopener noreferrer"
         >
           SEND
         </button>
