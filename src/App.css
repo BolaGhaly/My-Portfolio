@@ -629,7 +629,7 @@ form div span {
 
 .bottom,
 .top {
-  height: 1px;
+  height: 2px;
   left: 0;
   right: 0;
   transform: scaleX(0);
@@ -637,7 +637,7 @@ form div span {
 
 .left,
 .right {
-  width: 1px;
+  width: 2px;
   top: 0;
   bottom: 0;
   transform: scaleY(0);
