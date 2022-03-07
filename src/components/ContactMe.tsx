@@ -18,7 +18,7 @@ const ContactMe = () => {
       >
         <div className="form-item-1-div">
           <label>
-            Your Name <span className="red-asterisk">*</span>
+            Your Name <p className="red-asterisk">*</p>
           </label>
           <div>
             <input
@@ -28,11 +28,15 @@ const ContactMe = () => {
               placeholder="Name"
               required
             />
+            <span className="bottom"></span>
+            <span className="right"></span>
+            <span className="top"></span>
+            <span className="left"></span>
           </div>
         </div>
         <div className="form-item-2-div">
           <label>
-            Your Email <span className="red-asterisk">*</span>
+            Your Email <p className="red-asterisk">*</p>
           </label>
           <div>
             <input
@@ -42,12 +46,16 @@ const ContactMe = () => {
               placeholder="Email"
               required
             />
+            <span className="bottom"></span>
+            <span className="right"></span>
+            <span className="top"></span>
+            <span className="left"></span>
           </div>
         </div>
 
         <div className="form-item-3-div">
           <label>
-            Subject <span className="red-asterisk">*</span>
+            Subject <p className="red-asterisk">*</p>
           </label>
           <div>
             <input
@@ -56,11 +64,15 @@ const ContactMe = () => {
               placeholder="Subject"
               required
             />
+            <span className="bottom"></span>
+            <span className="right"></span>
+            <span className="top"></span>
+            <span className="left"></span>
           </div>
         </div>
         <div className="form-item-4-div">
           <label>
-            Your Message <span className="red-asterisk">*</span>
+            Your Message <p className="red-asterisk">*</p>
           </label>
           <div>
             <textarea
@@ -69,6 +81,10 @@ const ContactMe = () => {
               placeholder="Message"
               required
             />
+            <span className="bottom"></span>
+            <span className="right"></span>
+            <span className="top"></span>
+            <span className="left"></span>
           </div>
         </div>
       </form>
