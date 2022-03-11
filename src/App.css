@@ -847,6 +847,10 @@ footer p {
     margin-top: 30px;
   }
 
+  .mouse_scroll {
+    display: none;
+  }
+  
   .form-item-1-div,
   .form-item-2-div {
     grid-column: 1 / span 4;
