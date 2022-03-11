@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+Particles.tsx
+
 # testing
 /coverage
 
