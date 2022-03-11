@@ -151,7 +151,7 @@ li {
 .menu-open-icon {
   stroke-width: 2;
   font-size: 30px;
-  text-shadow: red 0px 0px 10px !important;
+  filter: drop-shadow(1px 1px 2px black);
   color: rgb(240, 240, 240);
   box-shadow: none;
   border: 0 !important;
@@ -163,9 +163,9 @@ li {
 .menu-close-icon {
   stroke-width: 0.65;
   font-size: 30px;
-  text-shadow: red 0px 0px 10px !important;
   color: rgb(240, 240, 240);
   box-shadow: none;
+  filter: drop-shadow(1px 1px 2px black);
   border: 0 !important;
   background: none;
   animation: fadeIn;
