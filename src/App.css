@@ -151,12 +151,15 @@ li {
 .menu-open-icon {
   stroke-width: 2;
   font-size: 30px;
+  -webkit-filter: drop-shadow(1px 1px 2px black);
   filter: drop-shadow(1px 1px 2px black);
   color: rgb(240, 240, 240);
   box-shadow: none;
   border: 0 !important;
   background: none;
+  -webkit-animation: fadeIn;
   animation: fadeIn;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
 
@@ -165,10 +168,13 @@ li {
   font-size: 30px;
   color: rgb(240, 240, 240);
   box-shadow: none;
+  -webkit-filter: drop-shadow(1px 1px 2px black);
   filter: drop-shadow(1px 1px 2px black);
   border: 0 !important;
   background: none;
+  -webkit-animation: fadeIn;
   animation: fadeIn;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
 
@@ -278,8 +284,6 @@ li {
   display: block;
   width: 5px;
   height: 5px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
   transform: rotate(45deg);
   border-right: 2px solid var(--blue-underline);
   border-bottom: 2px solid var(--blue-underline);
@@ -296,7 +300,6 @@ li {
 .doi,
 .trei {
   -webkit-animation: mouse-scroll 1s infinite;
-  -moz-animation: mouse-scroll 1s infinite;
   animation: mouse-scroll 1s infinite;
 }
 
@@ -305,6 +308,7 @@ li {
   -moz-animation-delay: 0.1s;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  -webkit-animation-delay: alternate;
   animation-delay: alternate;
 }
 
@@ -345,63 +349,23 @@ li {
   height: 4px;
   width: 4px;
   border: 2px solid rgb(0, 0, 0);
-  -webkit-border-radius: 8px;
   border-radius: 8px;
 }
 
 .wheel {
   -webkit-animation: mouse-wheel 0.5s linear infinite;
-  -moz-animation: mouse-wheel 0.5s linear infinite;
   animation: mouse-wheel 1.2s linear infinite;
 }
 
 @-webkit-keyframes mouse-wheel {
   0% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
   100% {
     opacity: 0;
-    -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
     transform: translateY(6px);
-  }
-}
-@-moz-keyframes mouse-wheel {
-  0% {
-    top: 1px;
-  }
-  25% {
-    top: 2px;
-  }
-  50% {
-    top: 3px;
-  }
-  75% {
-    top: 2px;
-  }
-  100% {
-    top: 1px;
-  }
-}
-@-o-keyframes mouse-wheel {
-  0% {
-    top: 1px;
-  }
-  25% {
-    top: 2px;
-  }
-  50% {
-    top: 3px;
-  }
-  75% {
-    top: 2px;
-  }
-  100% {
-    top: 1px;
   }
 }
 @keyframes mouse-wheel {
@@ -423,28 +387,6 @@ li {
 }
 
 @-webkit-keyframes mouse-scroll {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes mouse-scroll {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes mouse-scroll {
   0% {
     opacity: 0;
   }
@@ -754,8 +696,33 @@ textarea:focus ~ .left {
   border-radius: 50px;
 }
 
+.contact-me-section form input::-webkit-input-placeholder,
+.contact-me-section form textarea::-webkit-input-placeholder {
+  font-size: 15px !important;
+  color: rgb(50, 50, 50);
+}
+
+.contact-me-section form input::-moz-placeholder,
+.contact-me-section form textarea::-moz-placeholder {
+  font-size: 15px !important;
+  color: rgb(50, 50, 50);
+}
+
+.contact-me-section form input:-ms-input-placeholder,
+.contact-me-section form textarea:-ms-input-placeholder {
+  font-size: 15px !important;
+  color: rgb(50, 50, 50);
+}
+
+.contact-me-section form input::-ms-input-placeholder,
+.contact-me-section form textarea::-ms-input-placeholder {
+  font-size: 15px !important;
+  color: rgb(50, 50, 50);
+}
+
 .contact-me-section form input::placeholder,
 .contact-me-section form textarea::placeholder {
+  font-size: 15px !important;
   color: rgb(50, 50, 50);
 }
 
@@ -846,7 +813,7 @@ footer p {
   .mouse_scroll {
     display: none;
   }
-  
+
   .form-item-1-div,
   .form-item-2-div {
     grid-column: 1 / span 4;
