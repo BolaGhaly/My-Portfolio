@@ -754,10 +754,9 @@ textarea:focus ~ .left {
   border-radius: 50px;
 }
 
-::-webkit-input-placeholder {
+::placeholder {
   font-size: 15px !important;
   font-weight: 400 !important;
-  line-height: 1 !important;
   letter-spacing: 1px;
   color: rgb(50, 50, 50);
 }
