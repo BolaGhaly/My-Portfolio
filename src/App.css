@@ -754,10 +754,8 @@ textarea:focus ~ .left {
   border-radius: 50px;
 }
 
-::placeholder {
-  font-size: 15px !important;
-  font-weight: 400 !important;
-  letter-spacing: 1px;
+.contact-me-section form input::placeholder,
+.contact-me-section form textarea::placeholder {
   color: rgb(50, 50, 50);
 }
 
