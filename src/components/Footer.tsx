@@ -16,7 +16,7 @@ const Footer = () => {
           rel="noreferrer"
           className="fab fa-github"
         ></a>
-        <p>Copyright &copy; 2021 by Bola Ghaly. All rights reserved.</p>
+        <p>Copyright &copy; 2022 by Bola Ghaly. All rights reserved.</p>
       </footer>
     );
 }
