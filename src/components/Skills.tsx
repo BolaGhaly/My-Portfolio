@@ -7,6 +7,7 @@ import Java_Logo from "../assets/skills/Java-Logo.svg";
 import HTML_Logo from "../assets/skills/HTML-Logo.svg";
 import CSS_Logo from "../assets/skills/CSS-Logo.svg";
 import Javascript_Logo from "../assets/skills/Javascript-Logo.svg";
+import Typescript_Logo from "../assets/skills/Typescript-Logo.svg";
 import Bootstrap_Logo from "../assets/skills/Bootstrap-Logo.svg";
 import ReactJS_Logo from "../assets/skills/ReactJS-Logo.svg";
 import NodeJS_Logo from "../assets/skills/NodeJS-Logo.svg";
@@ -59,6 +60,12 @@ const Skills = () => {
             <div className="skills-container-item">
               <img src={Javascript_Logo} alt="Javascript Logo" />
               <p>Javascript</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={Typescript_Logo} alt="Typescript Logo" />
+              <p>Typescript</p>
             </div>
           </li>
           <li>
