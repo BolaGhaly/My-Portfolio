@@ -6,6 +6,7 @@ import Python_Logo from "../assets/skills/Python-Logo.svg";
 import Java_Logo from "../assets/skills/Java-Logo.svg";
 import HTML_Logo from "../assets/skills/HTML-Logo.svg";
 import CSS_Logo from "../assets/skills/CSS-Logo.svg";
+import Sass_Logo from "../assets/skills/Sass-Logo.svg";
 import Javascript_Logo from "../assets/skills/Javascript-Logo.svg";
 import Typescript_Logo from "../assets/skills/Typescript-Logo.svg";
 import Bootstrap_Logo from "../assets/skills/Bootstrap-Logo.svg";
@@ -54,6 +55,12 @@ const Skills = () => {
             <div className="skills-container-item">
               <img src={CSS_Logo} alt="CSS Logo" />
               <p>CSS</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={Sass_Logo} alt="Sass Logo" />
+              <p>Sass</p>
             </div>
           </li>
           <li>
