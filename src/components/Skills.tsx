@@ -84,7 +84,7 @@ const Skills = () => {
           <li>
             <div className="skills-container-item">
               <img src={ReactJS_Logo} alt="React Javascript Logo" />
-              <p>React JS</p>
+              <p>React</p>
             </div>
           </li>
           <li>
