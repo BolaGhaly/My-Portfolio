@@ -91,7 +91,7 @@ const ContactMe = () => {
       <div className="d-flex">
         <button
           type="submit"
-          className="form-submit-button m-auto bg-primary"
+          className="form-submit-button m-auto"
           formTarget="_blank"
           form="contact-me-form"
         >
