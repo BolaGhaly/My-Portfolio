@@ -251,7 +251,8 @@ li {
 }
 
 .header-linkedin-button a {
-  color: whitesmoke;
+  text-shadow: var(--black-font-shadow);
+  color: var(--white-font);
   font-size: 1.75rem;
   padding: 6px 10px;
 }
@@ -263,7 +264,8 @@ li {
 }
 
 .header-github-button a {
-  color: whitesmoke;
+  text-shadow: var(--black-font-shadow);
+  color: var(--white-font);
   font-size: 1.75rem;
   padding: 6px 10px;
 }
@@ -753,9 +755,9 @@ footer p {
 }
 
 .fa-linkedin:hover,
-.fa-github:hover {
-  color: #b8b8b8;
-  opacity: 1;
+.fa-github:hover,
+.header-resume-button a:hover {
+  opacity: 0.65;
 }
 
 /*--------------------- Media Queries -----------------*/
