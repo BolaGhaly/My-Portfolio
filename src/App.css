@@ -233,7 +233,7 @@ li {
 }
 
 .header-resume-button {
-  background-color: #313131;
+  background-color: var(--navbar_footer_bg);
   padding: 8px 15px;
   border-radius: 10px;
 }
@@ -245,7 +245,7 @@ li {
 }
 
 .header-linkedin-button {
-  background-color: #313131;
+  background-color: var(--navbar_footer_bg);
   border-radius: 10px;
   margin-left: 15px;
 }
@@ -257,7 +257,7 @@ li {
 }
 
 .header-github-button {
-  background-color: #313131;
+  background-color: var(--navbar_footer_bg);
   border-radius: 10px;
   margin-left: 15px;
 }
