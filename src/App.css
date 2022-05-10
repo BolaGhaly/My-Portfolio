@@ -6,7 +6,7 @@
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(200, 200, 200);
   --black-font-shadow: black 0px 0px 2px;
-  --blue-underline: #0c6efd;
+  --blue-underline: #0648ac;
 }
 
 *,
@@ -222,7 +222,7 @@ li {
   margin: 0;
   min-height: 55px;
   font-size: 22px;
-  color: #0000ff !important;
+  color: var(--blue-underline) !important;
 }
 
 .header-buttons {
@@ -276,7 +276,6 @@ li {
   margin: 0 auto;
   width: 25px;
   height: 120px;
-  /* margin-top: 125px; */
   bottom: 0;
 }
 
@@ -292,18 +291,14 @@ li {
   height: 16px;
 }
 
-.unu {
-  margin-top: 1px;
-}
-
-.unu,
-.doi,
-.trei {
+.one_m,
+.two_m,
+.three_m {
   -webkit-animation: mouse-scroll 1s infinite;
   animation: mouse-scroll 1s infinite;
 }
 
-.unu {
+.one_m {
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
   -webkit-animation-direction: alternate;
@@ -312,7 +307,7 @@ li {
   animation-delay: alternate;
 }
 
-.doi {
+.two_m {
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   -webkit-animation-direction: alternate;
@@ -321,7 +316,7 @@ li {
   margin-top: -6px;
 }
 
-.trei {
+.three_m {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
   -webkit-animation-direction: alternate;
