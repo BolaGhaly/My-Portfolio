@@ -452,7 +452,7 @@ li {
 }
 
 .skills-container-ul li:hover {
-  box-shadow: -10px 10px 15px -10px rgb(31, 33, 36);
+  box-shadow: -10px 10px 15px -10px #10538d;
 }
 
 .skills-container-item img {
@@ -487,7 +487,7 @@ li {
 
 .card {
   background-color: whitesmoke;
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: -5px 5px 10px rgb(16, 83, 141, 0.5);
 }
 
 .project-live-text,
@@ -496,7 +496,7 @@ li {
   width: 50%;
   color: var(--white-font) !important;
   padding: 10px 0;
-  background-color: var(--navbar_footer_bg);
+  background-color: var(--blue-underline);
   text-shadow: var(--black-font-shadow);
 }
 
