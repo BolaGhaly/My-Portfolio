@@ -5,8 +5,8 @@
   --navbar_footer_bg: #313131;
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(200, 200, 200);
-  --black-font-shadow: black 0px 0px 2px;
-  --blue-underline: #0648ac;
+  --black-font-shadow: black 0px 0px 3px;
+  --blue-underline: #00549D;
 }
 
 *,
@@ -78,7 +78,7 @@ a {
   height: 2px;
   bottom: -2.5px;
   left: 0;
-  background-color: var(--blue-underline);
+  background-color: var(--white-font-hover);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -487,28 +487,29 @@ li {
 
 .card {
   background-color: whitesmoke;
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.project-live-text,
+.project-github-logo {
+  text-align: center;
+  width: 50%;
+  color: var(--white-font) !important;
+  padding: 10px 0;
+  background-color: var(--blue-underline);
+  text-shadow: var(--black-font-shadow);
 }
 
 .project-live-text {
-  text-align: center;
-  width: 50%;
-  color: black !important;
-  background-color: #e4e4e4;
   font-size: 20px;
-  padding: 10px 0;
-  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  border-right: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 0 0 0 15px;
 }
 
 .project-github-logo {
-  text-align: center;
-  width: 50%;
-  color: black !important;
-  background-color: #e4e4e4;
   font-size: 30px;
-  padding: 10px 0;
-  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-left: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 0 0 15px 0;
 }
 
@@ -682,7 +683,9 @@ textarea:focus ~ .left {
 }
 
 .form-submit-button {
+  text-shadow: var(--black-font-shadow);
   padding: 10px 60px;
+  background-color: var(--blue-underline);
   color: white;
   margin-top: 30px !important;
   font-weight: 600;
