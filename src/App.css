@@ -756,8 +756,11 @@ footer p {
 
 .fa-linkedin:hover,
 .fa-github:hover,
-.header-resume-button a:hover {
-  opacity: 0.65;
+.header-resume-button a:hover,
+.project-live-text:hover,
+.form-submit-button:hover {
+  color: var(--white-font);
+  opacity: 0.8;
 }
 
 /*--------------------- Media Queries -----------------*/
