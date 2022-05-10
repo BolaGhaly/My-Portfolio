@@ -848,31 +848,6 @@ footer p {
 }
 
 @media screen and (max-width: 325px) {
-  .header-linkedin-button {
-    margin: auto 0;
-    background-color: var(--navbar_footer_bg);
-    border-radius: 10px;
-    margin-left: 15px;
-  }
-
-  .header-linkedin-button a {
-    color: whitesmoke;
-    font-size: 1.75rem;
-    padding: 6px 8px;
-  }
-
-  .header-github-button {
-    background-color: var(--navbar_footer_bg);
-    margin: auto 0;
-    border-radius: 10px;
-    margin-left: 15px;
-  }
-
-  .header-github-button a {
-    font-size: 1.75rem;
-    padding: 6px 8px;
-  }
-
   h2 {
     font-size: 1.25rem;
     padding-left: 50px !important;
