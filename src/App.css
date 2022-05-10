@@ -861,7 +861,7 @@ footer p {
 
   .header-linkedin-button {
     margin: auto 0;
-    background-color: #313131;
+    background-color: var(--navbar_footer_bg);
     border-radius: 10px;
     margin-left: 15px;
   }
@@ -873,7 +873,7 @@ footer p {
   }
 
   .header-github-button {
-    background-color: #313131;
+    background-color: var(--navbar_footer_bg);
     margin: auto 0;
     border-radius: 10px;
     margin-left: 15px;
