@@ -233,19 +233,19 @@ li {
 }
 
 .header-resume-button {
-  background-color: var(--navbar_footer_bg);
+  background-color: var(--blue-underline);
   padding: 8px 15px;
   border-radius: 10px;
 }
 
 .header-resume-button a {
   text-shadow: var(--black-font-shadow);
-  font-weight: 400;
+  font-weight: 500;
   color: whitesmoke;
 }
 
 .header-linkedin-button {
-  background-color: var(--navbar_footer_bg);
+  background-color: var(--blue-underline);
   border-radius: 10px;
   margin-left: 15px;
 }
@@ -257,7 +257,7 @@ li {
 }
 
 .header-github-button {
-  background-color: var(--navbar_footer_bg);
+  background-color: var(--blue-underline);
   border-radius: 10px;
   margin-left: 15px;
 }
@@ -503,13 +503,13 @@ li {
 .project-live-text {
   font-size: 20px;
   font-weight: 500;
-  border-right: 2px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
   border-radius: 0 0 0 15px;
 }
 
 .project-github-logo {
   font-size: 30px;
-  border-left: 2px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
   border-radius: 0 0 15px 0;
 }
 
@@ -686,7 +686,7 @@ textarea:focus ~ .left {
   text-shadow: var(--black-font-shadow);
   padding: 10px 60px;
   background-color: var(--blue-underline);
-  color: white;
+  color: var(--white-font);
   margin-top: 30px !important;
   font-weight: 600;
   font-size: 1.2rem;
