@@ -2,11 +2,11 @@
 
 :root {
   --my-pt: 5rem;
-  --navbar_footer_bg: #313131;
+  --navbar_footer_bg: #3a3a3a;
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(200, 200, 200);
   --black-font-shadow: black 0px 0px 3px;
-  --blue-underline: #00549d;
+  --blue-underline: #10538d;
 }
 
 *,
@@ -496,20 +496,20 @@ li {
   width: 50%;
   color: var(--white-font) !important;
   padding: 10px 0;
-  background-color: var(--blue-underline);
+  background-color: var(--navbar_footer_bg);
   text-shadow: var(--black-font-shadow);
 }
 
 .project-live-text {
   font-size: 20px;
   font-weight: 500;
-  border-right: 2px solid rgb(255, 255, 255, 0.8);
+  border-right: 2px solid rgb(255, 255, 255);
   border-radius: 0 0 0 15px;
 }
 
 .project-github-logo {
   font-size: 30px;
-  border-left: 2px solid rgb(255, 255, 255, 0.8);
+  border-left: 2px solid rgb(255, 255, 255);
   border-radius: 0 0 15px 0;
 }
 
