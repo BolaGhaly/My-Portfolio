@@ -6,7 +6,7 @@
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(200, 200, 200);
   --black-font-shadow: black 0px 0px 3px;
-  --blue-underline: #00549D;
+  --blue-underline: #00549d;
 }
 
 *,
@@ -503,13 +503,13 @@ li {
 .project-live-text {
   font-size: 20px;
   font-weight: 500;
-  border-right: 2px solid rgba(255, 255, 255, 0.6);
+  border-right: 2px solid rgb(255, 255, 255, 0.8);
   border-radius: 0 0 0 15px;
 }
 
 .project-github-logo {
   font-size: 30px;
-  border-left: 2px solid rgba(255, 255, 255, 0.6);
+  border-left: 2px solid rgb(255, 255, 255, 0.8);
   border-radius: 0 0 15px 0;
 }
 
