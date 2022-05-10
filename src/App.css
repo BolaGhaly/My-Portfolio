@@ -848,17 +848,6 @@ footer p {
 }
 
 @media screen and (max-width: 325px) {
-  .header-resume-button {
-    padding: 8px 15px;
-    border-radius: 10px;
-  }
-
-  .header-resume-button a {
-    text-shadow: var(--black-font-shadow);
-    font-weight: 400;
-    color: whitesmoke;
-  }
-
   .header-linkedin-button {
     margin: auto 0;
     background-color: var(--navbar_footer_bg);
