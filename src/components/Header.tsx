@@ -72,9 +72,9 @@ const Header = () => {
             <div className="wheel"></div>
           </div>
           <div>
-            <span className="m_scroll_arrows unu"></span>
-            <span className="m_scroll_arrows doi"></span>
-            <span className="m_scroll_arrows trei"></span>
+            <span className="m_scroll_arrows one_m"></span>
+            <span className="m_scroll_arrows two_m"></span>
+            <span className="m_scroll_arrows three_m"></span>
           </div>
         </a>
       </div>
