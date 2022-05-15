@@ -5,7 +5,7 @@ const Footer = () => {
     return (
       <footer className="footer text-center">
         <a
-          href="https://linkedin.com/in/bolaghaly63"
+          href="https://linkedin.com/in/bolaghaly"
           target="_blank"
           rel="noreferrer"
           className="fab fa-linkedin"
