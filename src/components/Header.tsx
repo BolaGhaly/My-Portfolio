@@ -49,7 +49,7 @@ const Header = () => {
             </button>
             <button className="header-linkedin-button">
               <a
-                href="https://linkedin.com/in/bolaghaly63"
+                href="https://linkedin.com/in/bolaghaly"
                 target="_blank"
                 rel="noreferrer"
                 className="fab fa-linkedin"
