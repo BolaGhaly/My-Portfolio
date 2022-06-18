@@ -1,6 +1,4 @@
 import React from "react";
-
-/* Logos */
 import CPP_Logo from "../assets/skills/Cplusplus-Logo.svg";
 import Python_Logo from "../assets/skills/Python-Logo.svg";
 import Java_Logo from "../assets/skills/Java-Logo.svg";
@@ -19,7 +17,6 @@ import Postman_Logo from "../assets/skills/Postman-Logo.svg";
 import Git_Logo from "../assets/skills/Git-Logo.svg";
 import Github_Logo from "../assets/skills/Github-Logo.svg";
 import Trello_Logo from "../assets/skills/Trello-Logo.svg";
-
 
 const Skills = () => {
   return (
