@@ -17,9 +17,9 @@ const Projects = () => {
             </div>
             <div className="project-text-div">
               <div className="project-title-container">
-                <h5 className="project-title">
+                <h3 className="project-title">
                   NYC Tech Talent Pipeline - Capstone Project
-                </h5>
+                </h3>
                 <p className="my-text-muted">
                   Full Stack Web Development Bootcamp
                 </p>
@@ -88,9 +88,9 @@ const Projects = () => {
             </div>
             <div className="project-text-div">
               <div className="project-title-container">
-                <h5 className="project-title">
+                <h3 className="project-title">
                   NYC Tech Talent Pipeline - Zip Code/City Search
-                </h5>
+                </h3>
                 <p className="my-text-muted">
                   Full Stack Web Development Bootcamp
                 </p>
@@ -156,7 +156,7 @@ const Projects = () => {
             </div>
             <div className="project-text-div">
               <div className="project-title-container">
-                <h5 className="project-title">Discord Bot</h5>
+                <h3 className="project-title">Discord Bot</h3>
                 <p className="my-text-muted">Personal Project</p>
               </div>
               <div>
