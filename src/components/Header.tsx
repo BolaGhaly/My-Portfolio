@@ -78,6 +78,7 @@ const Header = () => {
             <span className="m_scroll_arrows two_m"></span>
             <span className="m_scroll_arrows three_m"></span>
           </div>
+          <span className="mouse_scroll_alt_text">Scroll Down Button</span>
         </a>
       </div>
     </div>
