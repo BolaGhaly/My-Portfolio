@@ -31,7 +31,7 @@ body {
   color: black;
 }
 
-h2 {
+.section-title {
   font-size: 1.875rem;
   margin: 0 15% !important;
   display: block;
@@ -41,7 +41,7 @@ h2 {
   position: relative;
 }
 
-h2::before {
+.section-title::before {
   content: "";
   position: absolute;
   left: 0;
@@ -210,8 +210,8 @@ li {
   margin: 5px 0 20px;
   padding: 0;
   font-size: 20px;
-  font-weight: 600;
-  color: rgb(68, 68, 68);
+  font-weight: 500;
+  color: rgb(48, 48, 48);
 }
 
 .typewritter-text {
@@ -836,12 +836,12 @@ footer p {
     padding: 10px 0 5px;
   }
 
-  h2 {
+  .section-title {
     font-size: 1.375rem;
     padding-left: 70px !important;
   }
 
-  h2::before {
+  .section-title::before {
     top: 12px;
     width: 60px;
   }
@@ -851,13 +851,13 @@ footer p {
   }
 }
 
-@media screen and (max-width: 325px) {
-  h2 {
+@media screen and (max-width: 350px) {
+  .section-title {
     font-size: 1.25rem;
     padding-left: 50px !important;
   }
 
-  h2::before {
+  .section-title::before {
     top: 12px;
     width: 40px;
   }

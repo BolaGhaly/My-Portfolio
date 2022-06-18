@@ -12,8 +12,8 @@ const Header = () => {
         />
         <div className="home-subcontainer">
           <h1 className="home-title">Hey! I'm Bola Ghaly</h1>
-          <h3 className="home-subtitle">Based in NYC</h3>
-          <h4 className="typewritter-text">
+          <h2 className="home-subtitle">Based in NYC</h2>
+          <h3 className="typewritter-text">
             <Typewriter
               options={{
                 strings: [
@@ -32,7 +32,7 @@ const Header = () => {
                 skipAddStyles: true,
               }}
             />
-          </h4>
+          </h3>
           <div className="header-buttons">
             <button className="header-resume-button">
               <a
