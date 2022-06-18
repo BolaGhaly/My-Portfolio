@@ -756,11 +756,11 @@ footer p {
 
 .fa-linkedin span,
 .fa-github span {
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  top: -10px;
+  height: 1px !important;
+  width: 1px !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  top: -10px !important;
 }
 
 .fa-linkedin:hover,
