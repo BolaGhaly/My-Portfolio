@@ -563,7 +563,8 @@ form div textarea {
 }
 
 form textarea {
-  resize: none;
+  resize: vertical;
+  min-height: 135px;
   display: block;
 }
 
