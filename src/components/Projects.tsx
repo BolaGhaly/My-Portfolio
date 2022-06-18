@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 
 const Projects = () => {
@@ -7,13 +5,14 @@ const Projects = () => {
     <section className="projects-section s-4" id="projects">
       <h2>Projects</h2>
       <div className="project-cards-container">
+        {/* Card #1 */}
         <div className="card project-cards">
           <div className="project-cards-container-div">
             <div className="project-images-div">
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644901764/Project_1_IMG_q0uzjv.png"
                 className="project-images"
-                alt="Card's Image"
+                alt="Website Screenshot"
               />
             </div>
             <div className="project-text-div">
@@ -71,16 +70,20 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="fab fa-github project-github-logo"
-            ></a>
+            >
+              <span>Project's GitHub repository</span>
+            </a>
           </div>
         </div>
+
+        {/* Card #2 */}
         <div className="card project-cards mt-5">
           <div className="project-cards-container-div">
             <div className="project-images-div">
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644902357/Project_2_IMG_e9kkbi.png"
                 className="project-images"
-                alt="Card's Image"
+                alt="Website Screenshot"
               />
             </div>
             <div className="project-text-div">
@@ -135,16 +138,20 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="fab fa-github project-github-logo"
-            ></a>
+            >
+              <span>Project's GitHub repository</span>
+            </a>
           </div>
         </div>
+
+        {/* Card #3 */}
         <div className="card project-cards mt-5">
           <div className="project-cards-container-div">
             <div className="project-images-div">
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645334300/Project_3_IMG_sef3gy.png"
                 className="project-images"
-                alt="Card's Image"
+                alt="Website Screenshot"
               />
             </div>
             <div className="project-text-div">
@@ -197,7 +204,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="fab fa-github project-github-logo"
-            ></a>
+            >
+              <span>Project's GitHub repository</span>
+            </a>
           </div>
         </div>
         <p className="projects-p">
