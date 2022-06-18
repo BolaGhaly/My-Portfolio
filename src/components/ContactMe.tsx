@@ -14,7 +14,7 @@ const ContactMe = () => {
         id="contact-me-form"
       >
         <div className="form-item-1-div">
-          <label>
+          <label htmlFor="name">
             Your Name <p className="red-asterisk">*</p>
           </label>
           <div>
@@ -23,6 +23,7 @@ const ContactMe = () => {
               type="text"
               name="name"
               placeholder="Name"
+              id="name"
               required
             />
             <span className="bottom"></span>
@@ -32,7 +33,7 @@ const ContactMe = () => {
           </div>
         </div>
         <div className="form-item-2-div">
-          <label>
+          <label htmlFor="email">
             Your Email <p className="red-asterisk">*</p>
           </label>
           <div>
@@ -41,6 +42,7 @@ const ContactMe = () => {
               type="email"
               name="email"
               placeholder="Email"
+              id="email"
               required
             />
             <span className="bottom"></span>
@@ -51,7 +53,7 @@ const ContactMe = () => {
         </div>
 
         <div className="form-item-3-div">
-          <label>
+          <label htmlFor="subject">
             Subject <p className="red-asterisk">*</p>
           </label>
           <div>
@@ -59,6 +61,7 @@ const ContactMe = () => {
               className="form-item-3"
               name="subject"
               placeholder="Subject"
+              id="subject"
               required
             />
             <span className="bottom"></span>
@@ -68,7 +71,7 @@ const ContactMe = () => {
           </div>
         </div>
         <div className="form-item-4-div">
-          <label>
+          <label htmlFor="message">
             Your Message <p className="red-asterisk">*</p>
           </label>
           <div>
@@ -76,6 +79,7 @@ const ContactMe = () => {
               className="form-item-4"
               name="message"
               placeholder="Message"
+              id="message"
               required
             />
             <span className="bottom"></span>
