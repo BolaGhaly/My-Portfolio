@@ -12,7 +12,7 @@ const Projects = () => {
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644901764/Project_1_IMG_q0uzjv.png"
                 className="project-images"
-                alt="Website Screenshot"
+                alt="Project #1 - Website Screenshot"
               />
             </div>
             <div className="project-text-div">
@@ -83,7 +83,7 @@ const Projects = () => {
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1644902357/Project_2_IMG_e9kkbi.png"
                 className="project-images"
-                alt="Website Screenshot"
+                alt="Project #2 - Website Screenshot"
               />
             </div>
             <div className="project-text-div">
@@ -151,7 +151,7 @@ const Projects = () => {
               <img
                 src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645334300/Project_3_IMG_sef3gy.png"
                 className="project-images"
-                alt="Website Screenshot"
+                alt="Project #3 - Website Screenshot"
               />
             </div>
             <div className="project-text-div">
