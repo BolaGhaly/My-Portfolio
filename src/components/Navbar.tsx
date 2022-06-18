@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { VscClose } from "react-icons/vsc";
 import { FiMenu } from "react-icons/fi";
@@ -48,7 +47,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link hover-underline-animation"
-                href="#"
+                href="#home"
                 onClick={() => closeMenu()}
               >
                 Home
