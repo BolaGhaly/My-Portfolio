@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import Typewriter from "typewriter-effect";
 
@@ -9,8 +7,8 @@ const Header = () => {
       <div className="header-container-2">
         <img
           src="https://res.cloudinary.com/dvlicmrxg/image/upload/v1645397697/IMG_2_v5ieug.jpg"
-          alt="My Image"
           className="header-img"
+          alt="Bola Ghaly wearing a suit"
         />
         <div className="header-container-subcontainer">
           <h1 className="header-h1-title">Hey! I'm Bola Ghaly</h1>
@@ -53,7 +51,9 @@ const Header = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="fab fa-linkedin"
-              ></a>
+              >
+                <span>Bola Ghaly's Linkedin Profile</span>
+              </a>
             </button>
             <button className="header-github-button">
               <a
@@ -61,7 +61,9 @@ const Header = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="fab fa-github"
-              ></a>
+              >
+                <span>Bola Ghaly's GitHub Profile</span>
+              </a>
             </button>
           </div>
         </div>

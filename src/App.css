@@ -754,6 +754,15 @@ footer p {
   color: var(--white-font);
 }
 
+.fa-linkedin span,
+.fa-github span {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
 .fa-linkedin:hover,
 .fa-github:hover,
 .header-resume-button a:hover,
