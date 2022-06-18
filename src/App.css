@@ -5,7 +5,7 @@
   --navbar_footer_bg: #3a3a3a;
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(200, 200, 200);
-  --black-font-shadow: black 0px 0px 3px;
+  --black-font-shadow: black 0px 0px 4px;
   --blue-underline: #10538d;
 }
 
@@ -453,10 +453,10 @@ li {
   box-shadow: -10px 10px 15px -10px #10538d;
 }
 
-.skills-container-item img {
+/* .skills-container-item img {
   width: 35px;
   height: 35px;
-}
+} */
 
 .skills-container-item p {
   padding: 10px 0 10px 0;

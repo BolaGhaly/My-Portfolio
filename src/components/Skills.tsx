@@ -26,109 +26,149 @@ const Skills = () => {
         <ul className="skills-container-ul">
           <li>
             <div className="skills-container-item">
-              <img src={CPP_Logo} alt="C++ Logo" />
+              <img src={CPP_Logo} alt="C++ Logo" height={35} width={35} />
               <p>C++</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Python_Logo} alt="Python Logo" />
+              <img src={Python_Logo} alt="Python Logo" height={35} width={35} />
               <p>Python</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Java_Logo} alt="Java Logo" />
+              <img src={Java_Logo} alt="Java Logo" height={35} width={35} />
               <p>Java</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={HTML_Logo} alt="HTML Logo" />
+              <img src={HTML_Logo} alt="HTML Logo" height={35} width={35} />
               <p>HTML</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={CSS_Logo} alt="CSS Logo" />
+              <img src={CSS_Logo} alt="CSS Logo" height={35} width={35} />
               <p>CSS</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Sass_Logo} alt="Sass Logo" />
+              <img src={Sass_Logo} alt="Sass Logo" height={35} width={35} />
               <p>Sass</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Javascript_Logo} alt="Javascript Logo" />
+              <img
+                src={Javascript_Logo}
+                alt="Javascript Logo"
+                height={35}
+                width={35}
+              />
               <p>Javascript</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Typescript_Logo} alt="Typescript Logo" />
+              <img
+                src={Typescript_Logo}
+                alt="Typescript Logo"
+                height={35}
+                width={35}
+              />
               <p>Typescript</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Bootstrap_Logo} alt="Bootstrap Logo" />
+              <img
+                src={Bootstrap_Logo}
+                alt="Bootstrap Logo"
+                height={35}
+                width={35}
+              />
               <p>Bootstrap</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={ReactJS_Logo} alt="React Javascript Logo" />
+              <img
+                src={ReactJS_Logo}
+                alt="React Javascript Logo"
+                height={35}
+                width={35}
+              />
               <p>React</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={NodeJS_Logo} alt="Node.js Logo" />
+              <img
+                src={NodeJS_Logo}
+                alt="Node.js Logo"
+                height={35}
+                width={35}
+              />
               <p>Node.js</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Flask_Logo} alt="Flask Logo" />
+              <img src={Flask_Logo} alt="Flask Logo" height={35} width={35} />
               <p>Flask</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={PostgreSQL_Logo} alt="PostgreSQL Logo" />
+              <img
+                src={PostgreSQL_Logo}
+                alt="PostgreSQL Logo"
+                height={35}
+                width={35}
+              />
               <p>PostgreSQL</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={REST_API_Logo} alt="REST API Logo" />
+              <img
+                src={REST_API_Logo}
+                alt="REST API Logo"
+                height={35}
+                width={35}
+              />
               <p>REST API</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Postman_Logo} alt="Postman Logo" />
+              <img
+                src={Postman_Logo}
+                alt="Postman Logo"
+                height={35}
+                width={35}
+              />
               <p>Postman</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Git_Logo} alt="Git Logo" />
+              <img src={Git_Logo} alt="Git Logo" height={35} width={35} />
               <p>Git</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Github_Logo} alt="Github Logo" />
+              <img src={Github_Logo} alt="Github Logo" height={35} width={35} />
               <p>Github</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Trello_Logo} alt="Trello Logo" />
+              <img src={Trello_Logo} alt="Trello Logo" height={35} width={35} />
               <p>Trello</p>
             </div>
           </li>

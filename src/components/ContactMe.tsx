@@ -1,10 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import React, {useState} from "react";
+import React from "react";
 
 const ContactMe = () => {
-  const [formID, setFormID] = useState(
-    `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`
-  );
+  const formID = `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`;
 
   return (
     <section className="contact-me-section s-5" id="contact-me">
