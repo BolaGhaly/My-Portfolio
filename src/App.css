@@ -112,10 +112,6 @@ li {
   margin-right: 10px;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28240, 240, 240, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
 .navbar-brand {
   font-family: "Great Vibes", cursive;
   font-weight: bold;
@@ -153,7 +149,7 @@ li {
   font-size: 30px;
   -webkit-filter: drop-shadow(1px 1px 2px black);
   filter: drop-shadow(1px 1px 2px black);
-  color: rgb(240, 240, 240);
+  color: var(--white-font);
   box-shadow: none;
   border: 0 !important;
   background: none;
@@ -166,7 +162,7 @@ li {
 .menu-close-icon {
   stroke-width: 0.65;
   font-size: 30px;
-  color: rgb(240, 240, 240);
+  color: var(--white-font);
   box-shadow: none;
   -webkit-filter: drop-shadow(1px 1px 2px black);
   filter: drop-shadow(1px 1px 2px black);
@@ -199,19 +195,19 @@ li {
   width: 180px !important;
 }
 
-.header-container-subcontainer {
+.home-subcontainer {
   padding-left: 0 !important;
   display: flex;
   flex-direction: column;
   margin: 0 20px 0 50px;
 }
 
-.header-h1-title {
+.home-title {
   font-size: 28px;
 }
 
-.header-h1-subtitle {
-  margin: 2px 0 20px;
+.home-subtitle {
+  margin: 5px 0 20px;
   padding: 0;
   font-size: 20px;
   font-weight: 600;
@@ -810,7 +806,7 @@ footer p {
     flex-direction: column;
   }
 
-  .header-container-subcontainer {
+  .home-subcontainer {
     margin: 50px 0 0 0;
   }
 
