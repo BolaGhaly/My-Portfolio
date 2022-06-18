@@ -10,9 +10,9 @@ const Header = () => {
           className="header-img"
           alt="Bola Ghaly wearing a suit"
         />
-        <div className="header-container-subcontainer">
-          <h1 className="header-h1-title">Hey! I'm Bola Ghaly</h1>
-          <h5 className="header-h1-subtitle">Based in NYC</h5>
+        <div className="home-subcontainer">
+          <h1 className="home-title">Hey! I'm Bola Ghaly</h1>
+          <h3 className="home-subtitle">Based in NYC</h3>
           <h4 className="typewritter-text">
             <Typewriter
               options={{
