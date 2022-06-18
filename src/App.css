@@ -560,12 +560,11 @@ form div textarea {
   border: 1px solid black;
   width: 100%;
   height: 100%;
-  display: block;
 }
 
 form textarea {
-  /* resize: none; */
-  display: block;
+  resize: none;
+  /* display: block; */
 }
 
 form div {
