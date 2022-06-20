@@ -1,6 +1,6 @@
 {
-  "name": "updated-p",
-  "version": "0.1.0",
+  "name": "personal-portfolio-website",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",
