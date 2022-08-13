@@ -1,25 +1,18 @@
 <a href="https://bolaghaly.netlify.app/"> <img src="https://img.shields.io/website-up-down-blue-red/http/monip.org.svg"/> </a>
 [![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/BolaGhaly/My-Portfolio/blob/main/LICENSE.md)
 
-
-## Technologies Used:
+## Technologies Used
 <div>
   <kbd> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> </kbd>
-  &nbsp;
   <kbd> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> </kbd>
-  &nbsp;
   <kbd> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> </kbd>
-  &nbsp;
   <kbd> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> </kbd>
-  &nbsp;
   <kbd> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> </kbd>
-  &nbsp;
   <kbd> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/> </kbd>
-  &nbsp;
-  <kbd> <a href="https://bolaghaly.netlify.app/"> <img src="https://img.shields.io/badge/Deployed%20on%20Netlify-012F2C?style=for-the-badge&logo=netlify&logoColor=white"/> </a> </kbd>
+  <kbd> <img src="https://img.shields.io/badge/Netlify-012F2C?style=for-the-badge&logo=netlify&logoColor=white"/> </kbd>
 </div>
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
