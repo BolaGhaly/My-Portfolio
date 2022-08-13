@@ -19,7 +19,7 @@ const Footer = () => {
       >
         <span>Bola Ghaly's GitHub Profile</span>
       </a>
-      <p>Copyright &copy; 2022 by Bola Ghaly. All rights reserved. Test</p>
+      <p>Copyright &copy; 2022 by Bola Ghaly. All rights reserved.</p>
     </footer>
   );
 };
