@@ -695,25 +695,26 @@ textarea:focus ~ .left {
   border-radius: 50px;
 }
 
-/* 
 form input::-webkit-input-placeholder,
 form textarea::-webkit-input-placeholder {
-  font-size: 15px;
+  font-size: 15px !important;
+  font-weight: 400 !important;
   color: rgb(50, 50, 50);
 }
 
 form input::-moz-placeholder,
 form textarea::-moz-placeholder {
-  font-size: 15px;
+  font-size: 15px !important;
+  font-weight: 400 !important;
   color: rgb(50, 50, 50);
 }
 
 form input:-moz-placeholder,
 form textarea:-moz-placeholder {
-  font-size: 15px;
+  font-size: 15px !important;
+  font-weight: 400 !important;
   color: rgb(50, 50, 50);
-} 
-*/
+}
 
 /*-----------------------------------Footer--------------------------------*/
 footer {
