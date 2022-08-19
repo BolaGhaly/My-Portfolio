@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContactMe = () => {
   const formID = `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`;
 

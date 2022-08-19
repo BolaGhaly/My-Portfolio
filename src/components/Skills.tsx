@@ -1,4 +1,3 @@
-import React from "react";
 import CPP_Logo from "../assets/skills/Cplusplus-Logo.svg";
 import Python_Logo from "../assets/skills/Python-Logo.svg";
 import Java_Logo from "../assets/skills/Java-Logo.svg";

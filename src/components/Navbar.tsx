@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { VscClose } from "react-icons/vsc";
 import { FiMenu } from "react-icons/fi";
 
@@ -39,9 +39,7 @@ const Navbar = () => {
         >
           <ul
             className={`navbar-nav ms-auto ${
-              navbarOpen
-                ? "animate__animated animate__fadeIn"
-                : ""
+              navbarOpen ? "animate__animated animate__fadeIn" : ""
             }`}
           >
             <li className="nav-item">
