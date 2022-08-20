@@ -86,17 +86,17 @@ const ContactMe = () => {
             <span className="left"></span>
           </div>
         </div>
+        <div className="d-flex">
+          <button
+            type="submit"
+            className="form-submit-button m-auto"
+            formTarget="_blank"
+            form="contact-me-form"
+          >
+            SEND
+          </button>
+        </div>
       </form>
-      <div className="d-flex">
-        <button
-          type="submit"
-          className="form-submit-button m-auto"
-          formTarget="_blank"
-          form="contact-me-form"
-        >
-          SEND
-        </button>
-      </div>
     </section>
   );
 };

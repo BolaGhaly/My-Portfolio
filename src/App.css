@@ -542,7 +542,7 @@ ul.project-lis {
 /*---------------------------- Contact Me Section: Form ---------------------------*/
 .contact-me-section {
   padding-top: var(--my-pt);
-  margin: 0 15% 80px 15% !important;
+  margin: 0 15% 50px 15% !important;
 }
 
 .contact-me-section h2 {
@@ -551,9 +551,19 @@ ul.project-lis {
 
 .contact-form {
   padding-top: 30px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
 }
 
 form div input,
@@ -562,7 +572,29 @@ form div textarea {
   border: 1px solid black;
   width: 100%;
   height: 100%;
+  padding: 10px 20px;
+  margin-bottom: 25px;
 }
+
+.form-submit-button {
+  text-shadow: var(--black-font-shadow);
+  padding: 10px 60px;
+  background-color: var(--blue-underline);
+  color: var(--white-font);
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  margin-top: 20px !important;
+}
+
+
+
+/*
+
+
+
+
 
 form textarea {
   resize: vertical;
@@ -714,7 +746,7 @@ form textarea:-moz-placeholder {
   font-size: 15px !important;
   font-weight: 400 !important;
   color: rgb(50, 50, 50);
-}
+} */
 
 /*-----------------------------------Footer--------------------------------*/
 footer {
@@ -815,11 +847,6 @@ footer p {
 
   .mouse_scroll {
     display: none;
-  }
-
-  .form-item-1-div,
-  .form-item-2-div {
-    grid-column: 1 / span 4;
   }
 }
 
