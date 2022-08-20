@@ -1,3 +1,5 @@
+import { ImGithub } from "react-icons/im";
+
 const Projects = () => {
   return (
     <section className="projects-section s-4" id="projects">
@@ -67,8 +69,9 @@ const Projects = () => {
               href="https://github.com/BolaGhaly/TTP-Capstone-Project-Backend"
               target="_blank"
               rel="noreferrer"
-              className="fab fa-github project-github-logo"
+              className="project-github-logo"
             >
+              <ImGithub />
               <span>Project's GitHub repository</span>
             </a>
           </div>
@@ -135,8 +138,9 @@ const Projects = () => {
               href="https://github.com/BolaGhaly/TTP-Assignment-6"
               target="_blank"
               rel="noreferrer"
-              className="fab fa-github project-github-logo"
+              className="project-github-logo"
             >
+              <ImGithub />
               <span>Project's GitHub repository</span>
             </a>
           </div>
@@ -201,8 +205,9 @@ const Projects = () => {
               href="https://github.com/BolaGhaly/Discord-Bot-Python"
               target="_blank"
               rel="noreferrer"
-              className="fab fa-github project-github-logo"
+              className="project-github-logo"
             >
+              <ImGithub />
               <span>Project's GitHub repository</span>
             </a>
           </div>

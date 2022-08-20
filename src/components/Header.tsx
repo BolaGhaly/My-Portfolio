@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
-import { GrGithub, GrLinkedin } from "react-icons/gr";
+import { SiLinkedin } from "react-icons/si";
+import { ImGithub } from "react-icons/im";
 
 const Header = () => {
   return (
@@ -51,7 +52,7 @@ const Header = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <GrLinkedin />
+                <SiLinkedin />
                 <span>Bola Ghaly's Linkedin Profile</span>
               </a>
             </button>
@@ -61,7 +62,7 @@ const Header = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <GrGithub />
+                <ImGithub />
                 <span>Bola Ghaly's GitHub Profile</span>
               </a>
             </button>

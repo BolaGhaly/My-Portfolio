@@ -237,7 +237,8 @@ li {
 }
 
 .header-resume-button a {
-  text-shadow: var(--black-font-shadow);
+  -webkit-filter: drop-shadow(1px 1px 2px black);
+  filter: drop-shadow(1px 1px 2px black);
   font-weight: 500;
   color: whitesmoke;
 }
@@ -259,7 +260,8 @@ li {
 .header-linkedin-button svg,
 .header-github-button svg {
   font-size: 1.75rem;
-  filter: drop-shadow(2px 0px 3px rgb(0 0 0 / 0.4));
+  -webkit-filter: drop-shadow(1px 1px 2px black);
+  filter: drop-shadow(1px 1px 2px black);
 }
 
 .header-github-button svg {
@@ -501,10 +503,10 @@ li {
   color: var(--white-font) !important;
   padding: 10px 0;
   background-color: var(--blue-underline);
-  text-shadow: var(--black-font-shadow);
 }
 
 .project-live-text {
+  text-shadow: var(--black-font-shadow);
   font-size: 20px;
   font-weight: 500;
   border-right: 1px solid rgb(255, 255, 255);
@@ -512,9 +514,15 @@ li {
 }
 
 .project-github-logo {
-  font-size: 30px;
   border-left: 1px solid rgb(255, 255, 255);
   border-radius: 0 0 15px 0;
+}
+
+.project-github-logo svg {
+  height: 30px;
+  width: 30px;
+  -webkit-filter: drop-shadow(1px 1px 2px black);
+  filter: drop-shadow(1px 1px 2px black);
 }
 
 .project-title-container {
@@ -599,30 +607,42 @@ footer {
   color: var(--white-font);
 }
 
-footer a {
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1.75rem;
-  padding-top: 20px;
-}
-
-footer a:last-of-type {
-  margin-left: 3rem;
-}
-
 footer p {
+  text-shadow: var(--black-font-shadow);
   font-size: 1.125rem;
   padding: 10px 20px 10px 20px;
   margin-bottom: 0;
 }
 
-.fa-linkedin,
-.fa-github {
+.footer-icons {
+  padding: 10px 10px 0 10px;
+}
+
+.footer-icons a:last-child {
+  margin-left: 50px;
+}
+
+.footer-icons svg {
   color: var(--white-font);
+  -webkit-filter: drop-shadow(1px 1px 2px black);
+  filter: drop-shadow(1px 1px 2px black);
+}
+
+.footer-github-logo svg {
+  width: 28px;
+  height: 28px;
+}
+
+.footer-linkedin-logo svg {
+  height: 25px;
+  width: 25px;
 }
 
 .header-linkedin-button span,
 .header-github-button span,
+.project-github-logo span,
+.footer-linkedin-logo span,
+.footer-github-logo span,
 .mouse_scroll_alt_text {
   height: 0 !important;
   width: 0 !important;
@@ -631,13 +651,18 @@ footer p {
   top: -10px !important;
 }
 
-.fa-linkedin:hover,
-.fa-github:hover,
-.header-resume-button a:hover,
+.project-github-logo:hover,
 .project-live-text:hover,
+.header-resume-button:hover,
+.header-linkedin-button:hover,
+.header-github-button:hover,
 .form-submit-button:hover {
+  opacity: 0.9;
+}
+
+.footer-icons svg:hover {
   color: var(--white-font);
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 /*--------------------- Media Queries -----------------*/
@@ -703,7 +728,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 500px) {
   .skills-container-ul li {
     width: 140px;
     padding: 10px 0 5px;

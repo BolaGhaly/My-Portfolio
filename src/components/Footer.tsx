@@ -1,22 +1,28 @@
+import { GrGithub, GrLinkedin } from "react-icons/gr";
+
 const Footer = () => {
   return (
     <footer className="footer text-center">
-      <a
-        href="https://linkedin.com/in/bolaghaly"
-        target="_blank"
-        rel="noreferrer"
-        className="fab fa-linkedin"
-      >
-        <span>Bola Ghaly's Linkedin Profile</span>
-      </a>
-      <a
-        href="https://github.com/BolaGhaly"
-        target="_blank"
-        rel="noreferrer"
-        className="fab fa-github"
-      >
-        <span>Bola Ghaly's GitHub Profile</span>
-      </a>
+      <div className="footer-icons">
+        <a
+          href="https://linkedin.com/in/bolaghaly"
+          target="_blank"
+          rel="noreferrer"
+          className="footer-linkedin-logo"
+        >
+          <GrLinkedin />
+          <span>Bola Ghaly's Linkedin Profile</span>
+        </a>
+        <a
+          href="https://github.com/BolaGhaly"
+          target="_blank"
+          rel="noreferrer"
+          className="footer-github-logo"
+        >
+          <GrGithub />
+          <span>Bola Ghaly's GitHub Profile</span>
+        </a>
+      </div>
       <p>Copyright &copy; 2022 by Bola Ghaly. All rights reserved.</p>
     </footer>
   );
