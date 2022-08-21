@@ -123,6 +123,46 @@ li {
   color: var(--white-font);
 }
 
+.highlight {
+  position: relative;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.highlight:hover::before {
+  content: "";
+  position: absolute;
+  background-color: var(--blue-underline);
+  width: 120%;
+  height: 70%;
+  left: -3px;
+  bottom: 4px;
+  z-index: -100;
+  -webkit-animation: fade-in-bl 0.5s ease-out both;
+  animation: fade-in-bl 0.5s ease-out both;
+}
+
+@-webkit-keyframes fade-in-bl {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bl {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    opacity: 1;
+  }
+}
+
 .nav-link {
   padding: 0 !important;
   color: var(--white-font) !important;

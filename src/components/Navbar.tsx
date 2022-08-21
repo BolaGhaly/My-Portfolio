@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md sticky-top">
       <div className="container-fluid">
-        <h1 className="navbar-brand">BG</h1>
+        <h1 className="navbar-brand highlight">BG</h1>
         <button
           className="navbar-toggler border-0 shadow-none"
           type="button"
