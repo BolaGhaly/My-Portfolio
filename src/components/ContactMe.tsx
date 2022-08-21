@@ -24,10 +24,6 @@ const ContactMe = () => {
               id="name"
               required
             />
-            <span className="bottom"></span>
-            <span className="right"></span>
-            <span className="top"></span>
-            <span className="left"></span>
           </div>
         </div>
         <div className="form-item-2-div">
@@ -43,13 +39,8 @@ const ContactMe = () => {
               id="email"
               required
             />
-            <span className="bottom"></span>
-            <span className="right"></span>
-            <span className="top"></span>
-            <span className="left"></span>
           </div>
         </div>
-
         <div className="form-item-3-div">
           <label htmlFor="subject">
             Subject <p className="red-asterisk">*</p>
@@ -62,10 +53,6 @@ const ContactMe = () => {
               id="subject"
               required
             />
-            <span className="bottom"></span>
-            <span className="right"></span>
-            <span className="top"></span>
-            <span className="left"></span>
           </div>
         </div>
         <div className="form-item-4-div">
@@ -80,10 +67,6 @@ const ContactMe = () => {
               id="message"
               required
             />
-            <span className="bottom"></span>
-            <span className="right"></span>
-            <span className="top"></span>
-            <span className="left"></span>
           </div>
         </div>
         <div className="d-flex">

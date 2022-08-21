@@ -563,20 +563,25 @@ ul.project-lis {
 }
 
 .contact-form {
-  padding-top: 30px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
 }
 
-form label {
-  margin-bottom: 5px;
+form div label {
+  margin: 30px 0 2px 0;
   font-weight: 500;
   font-size: 1.125rem;
+}
+
+form div:first-of-type label {
+  margin: 0 0 2px 0;
 }
 
 form textarea {
   resize: vertical;
   min-height: 152px;
+  display: block;
 }
 
 form div input,
@@ -586,7 +591,7 @@ form div textarea {
   width: 100%;
   height: 100%;
   padding: 10px 20px;
-  margin-bottom: 25px;
+  margin: 0 !important;
 }
 
 .form-submit-button {
@@ -598,7 +603,7 @@ form div textarea {
   font-size: 1.2rem;
   border: 1px solid #000000;
   border-radius: 50px;
-  margin-top: 20px !important;
+  margin-top: 30px !important;
 }
 
 /*-----------------------------------Footer--------------------------------*/
