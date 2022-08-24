@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { SiLinkedin } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
+import GA_Event from "./GA_Event";
 
 const Header = () => {
   return (
@@ -35,7 +36,12 @@ const Header = () => {
             />
           </h3>
           <div className="header-buttons">
-            <button className="header-resume-button">
+            <button
+              className="header-resume-button"
+              onClick={() =>
+                GA_Event("Resume_Button", "Click", "Resume_Button_Clicked")
+              }
+            >
               <a
                 title="resume"
                 href="/Bola_Ghaly_Resume.pdf"
@@ -46,7 +52,16 @@ const Header = () => {
                 Resume
               </a>
             </button>
-            <button className="header-linkedin-button">
+            <button
+              className="header-linkedin-button"
+              onClick={() =>
+                GA_Event(
+                  "Header_LinkedIn_Button",
+                  "Click",
+                  "Header_LinkedIn_Button_Clicked"
+                )
+              }
+            >
               <a
                 href="https://linkedin.com/in/bolaghaly"
                 target="_blank"
@@ -56,7 +71,16 @@ const Header = () => {
                 <span>Bola Ghaly's Linkedin Profile</span>
               </a>
             </button>
-            <button className="header-github-button">
+            <button
+              className="header-github-button"
+              onClick={() =>
+                GA_Event(
+                  "Header_GitHub_Button",
+                  "Click",
+                  "Header_GitHub_Button_Clicked"
+                )
+              }
+            >
               <a
                 href="https://github.com/BolaGhaly"
                 target="_blank"
