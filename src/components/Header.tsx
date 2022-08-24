@@ -39,7 +39,11 @@ const Header = () => {
             <button
               className="header-resume-button"
               onClick={() =>
-                GA_Event("Resume_Button", "Click", "Resume_Button_Clicked")
+                GA_Event(
+                  "Header - Resume",
+                  "Resume Button Clicked",
+                  "Resume Button"
+                )
               }
             >
               <a
@@ -56,9 +60,9 @@ const Header = () => {
               className="header-linkedin-button"
               onClick={() =>
                 GA_Event(
-                  "Header_LinkedIn_Button",
-                  "Click",
-                  "Header_LinkedIn_Button_Clicked"
+                  "Header - LinkedIn",
+                  "Header LinkedIn Button Clicked",
+                  "Header LinkedIn Button"
                 )
               }
             >
@@ -75,9 +79,9 @@ const Header = () => {
               className="header-github-button"
               onClick={() =>
                 GA_Event(
-                  "Header_GitHub_Button",
-                  "Click",
-                  "Header_GitHub_Button_Clicked"
+                  "Header - GitHub",
+                  "Header GitHub Button Clicked",
+                  "Header GitHub Button"
                 )
               }
             >
