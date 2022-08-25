@@ -1,4 +1,5 @@
 import { GrGithub, GrLinkedin } from "react-icons/gr";
+import GA_Event from "./GA_Event";
 
 const Footer = () => {
   return (
@@ -9,6 +10,13 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
           className="footer-linkedin-logo"
+          onClick={() =>
+            GA_Event(
+              "Footer - LinkedIn",
+              "Footer LinkedIn Button Clicked",
+              "Footer LinkedIn Button"
+            )
+          }
         >
           <GrLinkedin />
           <span>Bola Ghaly's Linkedin Profile</span>
@@ -18,6 +26,13 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
           className="footer-github-logo"
+          onClick={() =>
+            GA_Event(
+              "Footer - GitHub",
+              "Footer GitHub Button Clicked",
+              "Footer GitHub Button"
+            )
+          }
         >
           <GrGithub />
           <span>Bola Ghaly's GitHub Profile</span>
