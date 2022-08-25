@@ -1,4 +1,5 @@
 import { ImGithub } from "react-icons/im";
+import GA_Event from "./GA_Event";
 
 const Projects = () => {
   return (
@@ -62,6 +63,13 @@ const Projects = () => {
               className="project-live-text"
               target="_blank"
               rel="noreferrer"
+              onClick={() =>
+                GA_Event(
+                  "Projects - #1 Live",
+                  "Projects - #1 Live Button Clicked",
+                  "Projects - #1 Live Button"
+                )
+              }
             >
               Live
             </a>
@@ -70,6 +78,13 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="project-github-logo"
+              onClick={() =>
+                GA_Event(
+                  "Projects - #1 GitHub",
+                  "Projects - #1 GitHub Button Clicked",
+                  "Projects - #1 GitHub Button"
+                )
+              }
             >
               <ImGithub />
               <span>Project's GitHub repository</span>
@@ -131,6 +146,13 @@ const Projects = () => {
               className="project-live-text"
               target="_blank"
               rel="noreferrer"
+              onClick={() =>
+                GA_Event(
+                  "Projects - #2 Live",
+                  "Projects - #2 Live Button Clicked",
+                  "Projects - #2 Live Button"
+                )
+              }
             >
               Live
             </a>
@@ -139,6 +161,13 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="project-github-logo"
+              onClick={() =>
+                GA_Event(
+                  "Projects - #2 GitHub",
+                  "Projects - #2 GitHub Button Clicked",
+                  "Projects - #2 GitHub Button"
+                )
+              }
             >
               <ImGithub />
               <span>Project's GitHub repository</span>
@@ -198,6 +227,13 @@ const Projects = () => {
               className="project-live-text"
               target="_blank"
               rel="noreferrer"
+              onClick={() =>
+                GA_Event(
+                  "Projects - #3 Live",
+                  "Projects - #3 Live Button Clicked",
+                  "Projects - #3 Live Button"
+                )
+              }
             >
               Live
             </a>
@@ -206,6 +242,13 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="project-github-logo"
+              onClick={() =>
+                GA_Event(
+                  "Projects - #3 GitHub",
+                  "Projects - #3 GitHub Button Clicked",
+                  "Projects - #3 GitHub Button"
+                )
+              }
             >
               <ImGithub />
               <span>Project's GitHub repository</span>
