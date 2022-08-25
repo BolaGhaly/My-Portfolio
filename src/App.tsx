@@ -12,7 +12,7 @@ import ReactGA from "react-ga";
 
 export class App extends React.Component {
   componentDidMount = () => {
-    ReactGA.initialize(`'${process.env.REACT_APP_GA}'`);
+    ReactGA.initialize("UA-236369204-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
 
     const config = {
