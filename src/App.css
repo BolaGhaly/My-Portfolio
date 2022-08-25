@@ -125,8 +125,6 @@ li {
 
 .highlight {
   position: relative;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 .highlight:hover::before {
