@@ -1,3 +1,5 @@
+import GA_Event from "./GA_Event";
+
 const ContactMe = () => {
   const formID = `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`;
 
@@ -10,6 +12,13 @@ const ContactMe = () => {
         action={formID}
         autoComplete="off"
         id="contact-me-form"
+        onSubmit={() =>
+          GA_Event(
+            "ContactMe - onSubmit",
+            "ContactMe onSubmit",
+            "ContactMe onSubmit"
+          )
+        }
       >
         <div className="form-item-1-div">
           <label htmlFor="name">

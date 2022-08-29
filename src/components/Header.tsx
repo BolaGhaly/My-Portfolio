@@ -36,27 +36,28 @@ const Header = () => {
             />
           </h3>
           <div className="header-buttons">
-            <button
+            <a
+              title="Resume"
+              href="/Bola_Ghaly_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              download="Resume - Bola Ghaly"
               className="header-resume-button"
               onClick={() =>
                 GA_Event(
                   "Header - Resume",
-                  "Resume Button Clicked",
-                  "Resume Button"
+                  "Header Resume Button Clicked",
+                  "Header Resume Button"
                 )
               }
             >
-              <a
-                title="resume"
-                href="/Bola_Ghaly_Resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-                download="Resume - Bola Ghaly"
-              >
-                Resume
-              </a>
-            </button>
-            <button
+              Resume
+            </a>
+            <a
+              title="LinkedIn"
+              href="https://linkedin.com/in/bolaghaly"
+              target="_blank"
+              rel="noreferrer"
               className="header-linkedin-button"
               onClick={() =>
                 GA_Event(
@@ -66,16 +67,14 @@ const Header = () => {
                 )
               }
             >
-              <a
-                href="https://linkedin.com/in/bolaghaly"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <SiLinkedin />
-                <span>Bola Ghaly's Linkedin Profile</span>
-              </a>
-            </button>
-            <button
+              <SiLinkedin />
+              <span>Bola Ghaly's Linkedin Profile</span>
+            </a>
+            <a
+              title="GitHub"
+              href="https://github.com/BolaGhaly"
+              target="_blank"
+              rel="noreferrer"
               className="header-github-button"
               onClick={() =>
                 GA_Event(
@@ -85,20 +84,23 @@ const Header = () => {
                 )
               }
             >
-              <a
-                href="https://github.com/BolaGhaly"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImGithub />
-                <span>Bola Ghaly's GitHub Profile</span>
-              </a>
-            </button>
+              <ImGithub />
+              <span>Bola Ghaly's GitHub Profile</span>
+            </a>
           </div>
         </div>
       </div>
       <div className="mouse_scroll">
-        <a href="#about">
+        <a
+          href="#about"
+          onClick={() =>
+            GA_Event(
+              "Header - ScrollDown Button",
+              "Header ScrollDown Button Clicked",
+              "Header ScrollDown Button"
+            )
+          }
+        >
           <div className="mouse">
             <div className="wheel"></div>
           </div>

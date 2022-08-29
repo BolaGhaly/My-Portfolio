@@ -1,16 +1,23 @@
 import { useState } from "react";
 import { VscClose } from "react-icons/vsc";
 import { FiMenu } from "react-icons/fi";
+import GA_Event from "./GA_Event";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen);
+    GA_Event(
+      "Navbar - hMenu",
+      "Navbar hMenu Button Clicked",
+      "Navbar hMenu Button"
+    );
   };
 
-  const closeMenu = () => {
+  const closeMenu = (category: string, action: string, label: string) => {
     setNavbarOpen(false);
+    GA_Event(category, action, label);
   };
 
   return (
@@ -46,7 +53,13 @@ const Navbar = () => {
               <a
                 className="nav-link hover-underline-animation"
                 href="#home"
-                onClick={() => closeMenu()}
+                onClick={() =>
+                  closeMenu(
+                    "Navbar - links",
+                    "Navbar home Clicked",
+                    "Navbar home"
+                  )
+                }
               >
                 Home
               </a>
@@ -55,7 +68,13 @@ const Navbar = () => {
               <a
                 className="nav-link hover-underline-animation"
                 href="#about"
-                onClick={() => closeMenu()}
+                onClick={() =>
+                  closeMenu(
+                    "Navbar - links",
+                    "Navbar about Clicked",
+                    "Navbar about"
+                  )
+                }
               >
                 About
               </a>
@@ -64,7 +83,13 @@ const Navbar = () => {
               <a
                 className="nav-link hover-underline-animation"
                 href="#skills"
-                onClick={() => closeMenu()}
+                onClick={() =>
+                  closeMenu(
+                    "Navbar - links",
+                    "Navbar skills Clicked",
+                    "Navbar skills"
+                  )
+                }
               >
                 Skills
               </a>
@@ -73,7 +98,13 @@ const Navbar = () => {
               <a
                 className="nav-link hover-underline-animation"
                 href="#projects"
-                onClick={() => closeMenu()}
+                onClick={() =>
+                  closeMenu(
+                    "Navbar - links",
+                    "Navbar projects Clicked",
+                    "Navbar projects"
+                  )
+                }
               >
                 Projects
               </a>
@@ -82,7 +113,13 @@ const Navbar = () => {
               <a
                 className="nav-link hover-underline-animation"
                 href="#contact-me"
-                onClick={() => closeMenu()}
+                onClick={() =>
+                  closeMenu(
+                    "Navbar - links",
+                    "Navbar contact-me Clicked",
+                    "Navbar contact-me"
+                  )
+                }
               >
                 Contact Me
               </a>

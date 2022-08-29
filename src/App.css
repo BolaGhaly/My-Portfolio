@@ -64,7 +64,6 @@ a {
   color: rgb(68, 68, 68);
 }
 
-/* Hover Underline Animation */
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -102,6 +101,7 @@ li {
   padding: 0;
   margin: 0;
 }
+
 /*-------------------------Navbar-------------------------*/
 .navbar {
   background-color: var(--navbar_footer_bg);
@@ -125,6 +125,8 @@ li {
 
 .highlight {
   position: relative;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .highlight:hover::before {
@@ -267,39 +269,40 @@ li {
   align-items: flex-end !important;
 }
 
-.header-resume-button {
+.header-resume-button,
+.header-linkedin-button,
+.header-github-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--blue-underline);
-  height: 40px;
-  padding: 0 15px;
+  color: var(--white-font);
   border-radius: 10px;
+  height: 40px;
 }
 
-.header-resume-button a {
-  -webkit-filter: drop-shadow(1px 1px 2px black);
-  filter: drop-shadow(1px 1px 2px black);
-  font-weight: 500;
-  color: whitesmoke;
+.header-resume-button {
+  padding: 0 15px;
+  text-shadow: var(--black-font-shadow);
 }
 
 .header-linkedin-button,
 .header-github-button {
-  background-color: var(--blue-underline);
-  border-radius: 10px;
+  padding: 0 8px;
   margin-left: 18px;
-  height: 40px;
-  width: 48px;
-}
-
-.header-linkedin-button a,
-.header-github-button a {
-  color: var(--white-font);
 }
 
 .header-linkedin-button svg,
 .header-github-button svg {
-  font-size: 1.75rem;
-  -webkit-filter: drop-shadow(1px 1px 2px black);
-  filter: drop-shadow(1px 1px 2px black);
+  -webkit-filter: drop-shadow(1px 1px 1px black);
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.header-resume-button:hover,
+.header-linkedin-button:hover,
+.header-github-button:hover {
+  color: rgb(215, 215, 215);
+  opacity: 0.9;
 }
 
 .header-github-button svg {
@@ -312,8 +315,6 @@ li {
   width: 25px;
 }
 
-/* Mouse Animation */
-/* Credits/Source: https://codepen.io/rightblog/pen/EagNMN/ */
 .mouse_scroll {
   position: absolute;
   display: block;
@@ -499,11 +500,6 @@ li {
   box-shadow: -10px 10px 15px -10px #10538d;
 }
 
-/* .skills-container-item img {
-  width: 35px;
-  height: 35px;
-} */
-
 .skills-container-item p {
   padding: 10px 0 10px 0;
   color: rgb(0, 0, 0);
@@ -672,8 +668,8 @@ footer p {
 }
 
 .footer-github-logo svg {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
 
 .footer-linkedin-logo svg {
@@ -696,9 +692,6 @@ footer p {
 
 .project-github-logo:hover,
 .project-live-text:hover,
-.header-resume-button:hover,
-.header-linkedin-button:hover,
-.header-github-button:hover,
 .form-submit-button:hover {
   opacity: 0.9;
 }
