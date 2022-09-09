@@ -1,21 +1,23 @@
-import CPP_Logo from "../assets/skills/Cplusplus-Logo.svg";
-import Python_Logo from "../assets/skills/Python-Logo.svg";
-import Java_Logo from "../assets/skills/Java-Logo.svg";
-import HTML_Logo from "../assets/skills/HTML-Logo.svg";
-import CSS_Logo from "../assets/skills/CSS-Logo.svg";
-import Sass_Logo from "../assets/skills/Sass-Logo.svg";
-import Javascript_Logo from "../assets/skills/Javascript-Logo.svg";
-import Typescript_Logo from "../assets/skills/Typescript-Logo.svg";
-import Bootstrap_Logo from "../assets/skills/Bootstrap-Logo.svg";
-import ReactJS_Logo from "../assets/skills/ReactJS-Logo.svg";
-import NodeJS_Logo from "../assets/skills/NodeJS-Logo.svg";
-import Flask_Logo from "../assets/skills/Flask-Logo.svg";
-import PostgreSQL_Logo from "../assets/skills/PostgreSQL-Logo.svg";
-import REST_API_Logo from "../assets/skills/REST-API-Logo.svg";
-import Postman_Logo from "../assets/skills/Postman-Logo.svg";
-import Git_Logo from "../assets/skills/Git-Logo.svg";
-import Github_Logo from "../assets/skills/Github-Logo.svg";
-import Trello_Logo from "../assets/skills/Trello-Logo.svg";
+import CPP_Logo from "../assets/skills/Cplusplus_Logo.svg";
+import Python_Logo from "../assets/skills/Python_Logo.svg";
+import Java_Logo from "../assets/skills/Java_Logo.svg";
+import HTML_Logo from "../assets/skills/HTML_Logo.svg";
+import CSS_Logo from "../assets/skills/CSS_Logo.svg";
+import Sass_Logo from "../assets/skills/Sass_Logo.svg";
+import Javascript_Logo from "../assets/skills/Javascript_Logo.svg";
+import Typescript_Logo from "../assets/skills/Typescript_Logo.svg";
+import Bootstrap_Logo from "../assets/skills/Bootstrap_Logo.svg";
+import ReactJS_Logo from "../assets/skills/ReactJS_Logo.svg";
+import NodeJS_Logo from "../assets/skills/NodeJS_Logo.svg";
+import Flask_Logo from "../assets/skills/Flask_Logo.svg";
+import PostgreSQL_Logo from "../assets/skills/PostgreSQL_Logo.svg";
+import REST_API_Logo from "../assets/skills/REST_API_Logo.svg";
+import GraphQL_Logo from "../assets/skills/GraphQL_Logo.svg";
+import Postman_Logo from "../assets/skills/Postman_Logo.svg";
+import Git_Logo from "../assets/skills/Git_Logo.svg";
+import GitHub_Logo from "../assets/skills/Github_Logo.svg";
+import GitLab_Logo from "../assets/skills/GitLab_Logo.svg";
+import Jira_Logo from "../assets/skills/Jira_Logo.svg";
 
 const Skills = () => {
   return (
@@ -145,6 +147,17 @@ const Skills = () => {
           <li>
             <div className="skills-container-item">
               <img
+                src={GraphQL_Logo}
+                alt="GraphQL Logo"
+                height={35}
+                width={35}
+              />
+              <p>GraphQL</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img
                 src={Postman_Logo}
                 alt="Postman Logo"
                 height={35}
@@ -161,14 +174,20 @@ const Skills = () => {
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Github_Logo} alt="Github Logo" height={35} width={35} />
-              <p>Github</p>
+              <img src={GitHub_Logo} alt="GitHub Logo" height={35} width={35} />
+              <p>GitHub</p>
             </div>
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={Trello_Logo} alt="Trello Logo" height={35} width={35} />
-              <p>Trello</p>
+              <img src={GitLab_Logo} alt="GitLab Logo" height={35} width={35} />
+              <p>GitLab</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={Jira_Logo} alt="Jira Logo" height={35} width={35} />
+              <p>Jira</p>
             </div>
           </li>
         </ul>
