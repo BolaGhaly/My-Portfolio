@@ -4,9 +4,9 @@
   --my-pt: 5rem;
   --navbar_footer_bg: #3a3a3a;
   --white-font: rgb(240, 240, 240);
-  --white-font-hover: rgb(200, 200, 200);
+  --white-font-hover: rgb(215, 215, 215);
   --black-font-shadow: black 0px 0px 4px;
-  --blue-underline: #10538d;
+  --blue: #10538d;
 }
 
 *,
@@ -87,7 +87,7 @@ a {
   transform-origin: bottom left;
 }
 
-/*-------------------------Bootstrap-------------------------*/
+/*------------------------- Bootstrap -------------------------*/
 .container-fluid {
   padding: 0;
   margin: 0;
@@ -102,7 +102,7 @@ li {
   margin: 0;
 }
 
-/*-------------------------Navbar-------------------------*/
+/*------------------------- Navbar -------------------------*/
 .navbar {
   background-color: var(--navbar_footer_bg);
   min-height: 54px;
@@ -132,7 +132,7 @@ li {
 .highlight:hover::before {
   content: "";
   position: absolute;
-  background-color: var(--blue-underline);
+  background-color: var(--blue);
   width: 120%;
   height: 70%;
   left: -3px;
@@ -215,7 +215,7 @@ li {
   animation-duration: 1s;
 }
 
-/*-------------------------Hero/Landing Page-------------------------*/
+/*------------------------- Header -------------------------*/
 .header-container-1 {
   display: flex;
   justify-content: center;
@@ -259,7 +259,7 @@ li {
   margin: 0;
   min-height: 55px;
   font-size: 22px;
-  color: var(--blue-underline) !important;
+  color: var(--blue) !important;
 }
 
 .header-buttons {
@@ -275,34 +275,48 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--blue-underline);
-  color: var(--white-font);
   border-radius: 10px;
   height: 40px;
 }
 
 .header-resume-button {
   padding: 0 15px;
+  font-weight: 500;
+  background-color: var(--blue);
+  color: var(--white-font);
   text-shadow: var(--black-font-shadow);
 }
 
 .header-linkedin-button,
 .header-github-button {
   padding: 0 8px;
-  margin-left: 18px;
+  background-color: var(--white-font);
+  color: var(--blue);
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0, 0.5));
 }
 
-.header-linkedin-button svg,
-.header-github-button svg {
-  -webkit-filter: drop-shadow(1px 1px 1px black);
-  filter: drop-shadow(1px 1px 1px black);
+.header-linkedin-button {
+  margin-left: 40px;
+}
+
+.header-github-button {
+  margin-left: 14px;
+}
+
+.header-resume-button:hover {
+  color: var(--white-font);
+}
+
+.header-linkedin-button:hover,
+.header-github-button:hover {
+  color: var(--blue);
 }
 
 .header-resume-button:hover,
 .header-linkedin-button:hover,
 .header-github-button:hover {
-  color: rgb(215, 215, 215);
-  opacity: 0.9;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 .header-github-button svg {
@@ -329,8 +343,8 @@ li {
   width: 5px;
   height: 5px;
   transform: rotate(45deg);
-  border-right: 2px solid var(--blue-underline);
-  border-bottom: 2px solid var(--blue-underline);
+  border-right: 2px solid var(--blue);
+  border-bottom: 2px solid var(--blue);
   margin: 0 0 3px 4px;
   width: 16px;
   height: 16px;
@@ -449,7 +463,7 @@ li {
   }
 }
 
-/*----------------------------About Section---------------------------*/
+/*---------------------------- About ---------------------------*/
 .about-section {
   padding-top: var(--my-pt);
 }
@@ -459,7 +473,7 @@ li {
   font-size: 17px;
 }
 
-/*----------------------------Skills Section---------------------------*/
+/*---------------------------- Skills ---------------------------*/
 .skills-section {
   padding-top: var(--my-pt);
 }
@@ -505,7 +519,7 @@ li {
   color: rgb(0, 0, 0);
 }
 
-/*----------------------------Projects Section---------------------------*/
+/*---------------------------- Projects ---------------------------*/
 .projects-section {
   padding-top: var(--my-pt);
 }
@@ -536,7 +550,7 @@ li {
   width: 50%;
   color: var(--white-font) !important;
   padding: 10px 0;
-  background-color: var(--blue-underline);
+  background-color: var(--blue);
 }
 
 .project-live-text {
@@ -586,7 +600,7 @@ ul.project-lis {
   list-style-position: inside;
 }
 
-/*---------------------------- Contact Me Section: Form ---------------------------*/
+/*---------------------------- Contact Me ---------------------------*/
 .contact-me-section {
   padding-top: var(--my-pt);
   margin: 0 15% 50px 15% !important;
@@ -631,7 +645,7 @@ form div textarea {
 .form-submit-button {
   text-shadow: var(--black-font-shadow);
   padding: 10px 60px;
-  background-color: var(--blue-underline);
+  background-color: var(--blue);
   color: var(--white-font);
   font-weight: 600;
   font-size: 1.2rem;
@@ -640,7 +654,7 @@ form div textarea {
   margin-top: 30px !important;
 }
 
-/*-----------------------------------Footer--------------------------------*/
+/*----------------------------------- Footer --------------------------------*/
 footer {
   background-color: var(--navbar_footer_bg);
   color: var(--white-font);
@@ -701,7 +715,7 @@ footer p {
   opacity: 0.7;
 }
 
-/*--------------------- Media Queries -----------------*/
+/*--------------------- Media Queries -----------------------*/
 @media screen and (max-width: 1300px) {
   .project-cards-container-div {
     display: flex;
