@@ -511,7 +511,9 @@ li {
 }
 
 .skills-container-ul li:hover {
-  box-shadow: -10px 10px 15px -10px #10538d;
+  -webkit-box-shadow: 0px 0px 16px rgba(16, 83, 141, 0.5);
+  box-shadow: 0px 0px 16px rgba(16, 83, 141, 0.5);
+  background-color: var(--white-font);
 }
 
 .skills-container-item p {
