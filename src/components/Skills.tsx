@@ -8,6 +8,7 @@ import Sass_Logo from "../assets/skills/Sass_Logo.svg";
 import Javascript_Logo from "../assets/skills/Javascript_Logo.svg";
 import Typescript_Logo from "../assets/skills/Typescript_Logo.svg";
 import React_Logo from "../assets/skills/React_Logo.svg";
+import Material_UI_Logo from "../assets/skills/Material_UI_Logo.svg";
 import NodeJS_Logo from "../assets/skills/NodeJS_Logo.svg";
 import ExpressJS_Logo from "../assets/skills/ExpressJS_Logo.svg";
 import Flask_Logo from "../assets/skills/Flask_Logo.svg";
@@ -100,6 +101,17 @@ const Skills = () => {
             <div className="skills-container-item">
               <img src={React_Logo} alt="React Logo" height={35} width={35} />
               <p>React</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img
+                src={Material_UI_Logo}
+                alt="Material UI Logo"
+                height={35}
+                width={35}
+              />
+              <p>Material UI</p>
             </div>
           </li>
           <li>

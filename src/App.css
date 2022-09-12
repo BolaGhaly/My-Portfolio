@@ -494,12 +494,11 @@ li {
 
 .skills-container-ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   grid-template-rows: auto;
-  gap: 50px;
+  gap: 30px;
   list-style: none;
   justify-items: center;
-  padding: 10px 10px;
 }
 
 .skills-container-ul li {
