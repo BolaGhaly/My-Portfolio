@@ -41,7 +41,7 @@ const Header = () => {
               href="/Bola_Ghaly_Resume.pdf"
               target="_blank"
               rel="noreferrer"
-              download="Resume - Bola Ghaly"
+              download="Bola_Ghaly_Resume"
               className="header-resume-button"
               onClick={() =>
                 GA_Event(
