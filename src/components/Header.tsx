@@ -37,7 +37,6 @@ const Header = () => {
           </h3>
           <div className="header-buttons">
             <a
-              title="Resume"
               href="/Bola_Ghaly_Resume.pdf"
               target="_blank"
               rel="noreferrer"
