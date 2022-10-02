@@ -8,8 +8,12 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
-import { FiMenu } from "react-icons/fi";
 import GA_Event from "./GA_Event";
+import { FiMenu } from "react-icons/fi";
+import { AiOutlineFileText } from "react-icons/ai";
+import { SiLinkedin } from "react-icons/si";
+import { ImGithub } from "react-icons/im";
+
 
 const navItems = ["Home", "About", "Skills", "Projects", "Contact Me"];
 const navHRefs = ["#home", "#about", "#skills", "#projects", "#contact-me"];
@@ -47,6 +51,54 @@ const Navbar = () => {
             </ListItemButton>
           </ListItem>
         ))}
+        <div className="drawer-icons">
+          <a
+            title="Resume"
+            href="/Bola_Ghaly_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            download="Bola_Ghaly_Resume"
+            onClick={() =>
+              GA_Event(
+                "Navbar - Resume",
+                "Navbar Resume Icon Clicked",
+                "Navbar Resume Icon"
+              )
+            }
+          >
+            <AiOutlineFileText />
+          </a>
+          <a
+            title="LinkedIn"
+            href="https://linkedin.com/in/bolaghaly"
+            target="_blank"
+            rel="noreferrer"
+            onClick={() =>
+              GA_Event(
+                "Navbar - LinkedIn",
+                "Navbar LinkedIn Icon Clicked",
+                "Navbar LinkedIn Icon"
+              )
+            }
+          >
+            <SiLinkedin />
+          </a>
+          <a
+            title="GitHub"
+            href="https://github.com/BolaGhaly"
+            target="_blank"
+            rel="noreferrer"
+            onClick={() =>
+              GA_Event(
+                "Navbar - GitHub",
+                "Navbar GitHub Button Clicked",
+                "Navbar GitHub Button"
+              )
+            }
+          >
+            <ImGithub />
+          </a>
+        </div>
       </List>
     </Box>
   );
