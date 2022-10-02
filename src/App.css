@@ -97,6 +97,9 @@ li {
   min-width: 0 !important;
 }
 
+.MuiTouchRipple-root {
+  display: none !important;
+}
 /*------------------------- Navbar -------------------------*/
 .hover-underline-animation {
   display: inline-block;
@@ -211,45 +214,6 @@ li {
   color: var(--white-font-hover) !important;
 }
 
-.highlight {
-  position: relative;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-.highlight:hover::before {
-  content: "";
-  position: absolute;
-  background-color: var(--blue);
-  width: 120%;
-  height: 70%;
-  left: -3px;
-  bottom: 4px;
-  z-index: -100;
-  -webkit-animation: highlight-fadeIn 0.5s ease-out both;
-  animation: highlight-fadeIn 0.5s ease-out both;
-}
-
-@-webkit-keyframes highlight-fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-    opacity: 1;
-  }
-}
-@keyframes highlight-fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-    opacity: 1;
-  }
-}
 /*------------------------- Header -------------------------*/
 .header-container-1 {
   display: flex;
