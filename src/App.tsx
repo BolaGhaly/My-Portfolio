@@ -9,6 +9,8 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import sr from "./ScrollReveal";
 import ReactGA from "react-ga";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
 
 export class App extends React.Component {
   componentDidMount = () => {
@@ -34,12 +36,15 @@ export class App extends React.Component {
     return (
       <div id="home">
         <Navbar />
-        <Header />
-        <About />
-        <Skills />
-        <Projects />
-        <ContactMe />
-        <Footer />
+        <Box component="main">
+          <Toolbar />
+          <Header />
+          <About />
+          <Skills />
+          <Projects />
+          <ContactMe />
+          <Footer />
+        </Box>
       </div>
     );
   }
