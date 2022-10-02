@@ -1,132 +1,112 @@
-import { useState } from "react";
-import { VscClose } from "react-icons/vsc";
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import Toolbar from "@mui/material/Toolbar";
+import Button from "@mui/material/Button";
 import { FiMenu } from "react-icons/fi";
 import GA_Event from "./GA_Event";
 
+const navItems = ["Home", "About", "Skills", "Projects", "Contact Me"];
+const navHRefs = ["#home", "#about", "#skills", "#projects", "#contact-me"];
+
 const Navbar = () => {
-  const [navbarOpen, setNavbarOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = React.useState(false);
 
-  const handleToggle = () => {
-    setNavbarOpen(!navbarOpen);
-    GA_Event(
-      "Navbar - hMenu",
-      "Navbar hMenu Button Clicked",
-      "Navbar hMenu Button"
-    );
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
   };
 
-  const closeMenu = (category: string, action: string, label: string) => {
-    setNavbarOpen(false);
-    GA_Event(category, action, label);
-  };
+  const drawer = (
+    <Box sx={{ textAlign: "center", width: "200px" }}>
+      <h1 className="navbar-name-black">BG</h1>
+      <List sx={{ padding: "0" }} onClick={handleDrawerToggle}>
+        {navItems.map((item, i) => (
+          <ListItem sx={{ padding: "0" }} key={item}>
+            <ListItemButton
+              sx={{ padding: "0" }}
+              className="nav-listItemButton"
+            >
+              <a
+                href={`${navHRefs[i]}`}
+                className="hover-underline-animation"
+                onClick={() =>
+                  GA_Event(
+                    "SM_Navbar - links",
+                    `SM_Navbar - ${item} Clicked`,
+                    `SM_Navbar - ${item}`
+                  )
+                }
+              >
+                {item}
+              </a>
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
 
   return (
-    <nav className="navbar navbar-expand-md sticky-top">
-      <div className="container-fluid">
-        <h1 className="navbar-brand highlight">BG</h1>
-        <button
-          className="navbar-toggler border-0 shadow-none"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          onClick={handleToggle}
-        >
-          {navbarOpen ? (
-            <VscClose className="menu-close-icon" />
-          ) : (
-            <FiMenu className="menu-open-icon" />
-          )}
-        </button>
-        <div
-          className={`${navbarOpen ? "" : "collapse"} navbar-collapse`}
-          id="navbarNav"
-        >
-          <ul
-            className={`navbar-nav ms-auto ${
-              navbarOpen ? "animate__animated animate__fadeIn" : ""
-            }`}
+    <nav>
+      <AppBar component="nav">
+        <Toolbar className="main-nav">
+          <IconButton
+            aria-label="open drawer"
+            onClick={handleDrawerToggle}
+            className="nav-IconButton"
           >
-            <li className="nav-item">
-              <a
-                className="nav-link hover-underline-animation"
-                href="#home"
-                onClick={() =>
-                  closeMenu(
-                    "Navbar - links",
-                    "Navbar home Clicked",
-                    "Navbar home"
-                  )
-                }
-              >
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link hover-underline-animation"
-                href="#about"
-                onClick={() =>
-                  closeMenu(
-                    "Navbar - links",
-                    "Navbar about Clicked",
-                    "Navbar about"
-                  )
-                }
-              >
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link hover-underline-animation"
-                href="#skills"
-                onClick={() =>
-                  closeMenu(
-                    "Navbar - links",
-                    "Navbar skills Clicked",
-                    "Navbar skills"
-                  )
-                }
-              >
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link hover-underline-animation"
-                href="#projects"
-                onClick={() =>
-                  closeMenu(
-                    "Navbar - links",
-                    "Navbar projects Clicked",
-                    "Navbar projects"
-                  )
-                }
-              >
-                Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link hover-underline-animation"
-                href="#contact-me"
-                onClick={() =>
-                  closeMenu(
-                    "Navbar - links",
-                    "Navbar contact-me Clicked",
-                    "Navbar contact-me"
-                  )
-                }
-              >
-                Contact Me
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+            <FiMenu
+              onClick={() =>
+                GA_Event(
+                  "SM_Navbar - IconButton",
+                  "SM_Navbar - IconButton Clicked",
+                  "SM_Navbar - IconButton"
+                )
+              }
+            />
+          </IconButton>
+
+          <div className="lg-nav">
+            <h1 className="navbar-name-white">BG</h1>
+            <Box className="lg-nav-box">
+              {navItems.map((item, i) => (
+                <Button key={item}>
+                  <a
+                    href={`${navHRefs[i]}`}
+                    className="hover-underline-animation"
+                    onClick={() =>
+                      GA_Event(
+                        "LG_Navbar - links",
+                        `LG_Navbar - ${item} Clicked`,
+                        `LG_Navbar - ${item}`
+                      )
+                    }
+                  >
+                    {item}
+                  </a>
+                </Button>
+              ))}
+            </Box>
+          </div>
+        </Toolbar>
+      </AppBar>
+      <Box component="nav">
+        <Drawer
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true,
+          }}
+          className="box-drawer"
+        >
+          {drawer}
+        </Drawer>
+      </Box>
     </nav>
   );
 };
