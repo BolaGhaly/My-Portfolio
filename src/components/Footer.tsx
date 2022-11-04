@@ -3,7 +3,7 @@ import GA_Event from "./GA_Event";
 
 const Footer = () => {
   return (
-    <footer className="footer text-center">
+    <footer>
       <div className="footer-icons">
         <a
           href="https://linkedin.com/in/bolaghaly"
