@@ -34,7 +34,7 @@ body {
 }
 
 .section-title {
-  font-size: 1.875rem;
+  font-size: 1.625rem;
   margin: 0 15% !important;
   display: block;
   text-transform: capitalize;
@@ -540,7 +540,8 @@ li {
 
 .skills-container-item p {
   padding: 10px 0 10px 0;
-  color: rgb(0, 0, 0);
+  color: black;
+  font-size: 15px;
 }
 
 /*---------------------------- Projects ---------------------------*/
@@ -682,6 +683,7 @@ form div textarea {
 footer {
   background-color: var(--navbar_footer_bg);
   color: var(--white-font);
+  text-align: center;
 }
 
 footer p {
@@ -692,7 +694,7 @@ footer p {
 }
 
 .footer-icons {
-  padding: 10px 10px 0 10px;
+  padding: 10px 10px 0;
 }
 
 .footer-icons a:last-child {
@@ -711,8 +713,9 @@ footer p {
 }
 
 .footer-linkedin-logo svg {
-  height: 25px;
-  width: 25px;
+  height: 26px;
+  width: 26px;
+  padding: 1px 0;
 }
 
 .header-linkedin-button span,
@@ -735,7 +738,7 @@ footer p {
 }
 
 .footer-icons svg:hover {
-  color: var(--white-font);
+  color: var(--white-font-hover);
   opacity: 0.7;
 }
 
@@ -812,7 +815,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 499px) {
   .skills-container-ul li {
     width: 140px;
     padding: 10px 0 5px;

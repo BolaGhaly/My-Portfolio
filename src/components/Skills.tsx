@@ -5,10 +5,12 @@ import Python_Logo from "../assets/skills/Python_Logo.svg";
 import HTML_Logo from "../assets/skills/HTML_Logo.svg";
 import CSS_Logo from "../assets/skills/CSS_Logo.svg";
 import Sass_Logo from "../assets/skills/Sass_Logo.svg";
+import TailwindCSS_Logo from "../assets/skills/TailwindCSS_Logo.svg";
+import Material_UI_Logo from "../assets/skills/Material_UI_Logo.svg";
 import Javascript_Logo from "../assets/skills/Javascript_Logo.svg";
 import Typescript_Logo from "../assets/skills/Typescript_Logo.svg";
 import React_Logo from "../assets/skills/React_Logo.svg";
-import Material_UI_Logo from "../assets/skills/Material_UI_Logo.svg";
+import NextJS_Logo from "../assets/skills/NextJS_Logo.svg";
 import NodeJS_Logo from "../assets/skills/NodeJS_Logo.svg";
 import ExpressJS_Logo from "../assets/skills/ExpressJS_Logo.svg";
 import Flask_Logo from "../assets/skills/Flask_Logo.svg";
@@ -17,7 +19,6 @@ import SQL_Logo from "../assets/skills/SQL_Logo.svg";
 import REST_Logo from "../assets/skills/REST_Logo.svg";
 import GraphQL_Logo from "../assets/skills/GraphQL_Logo.svg";
 import Postman_Logo from "../assets/skills/Postman_Logo.svg";
-import AWS_Logo from "../assets/skills/AWS_Logo.svg";
 import Figma_Logo from "../assets/skills/Figma_Logo.svg";
 import Jira_Logo from "../assets/skills/Jira_Logo.svg";
 import VSCode_Logo from "../assets/skills/VSCode_Logo.svg";
@@ -35,30 +36,6 @@ const Skills = () => {
         <ul className="skills-container-ul">
           <li>
             <div className="skills-container-item">
-              <img src={CPP_Logo} alt="C++ Logo" height={35} width={35} />
-              <p>C++</p>
-            </div>
-          </li>
-          <li>
-            <div className="skills-container-item">
-              <img src={C_Sharp_Logo} alt="C# Logo" height={35} width={35} />
-              <p>C#</p>
-            </div>
-          </li>
-          <li>
-            <div className="skills-container-item">
-              <img src={Java_Logo} alt="Java Logo" height={35} width={35} />
-              <p>Java</p>
-            </div>
-          </li>
-          <li>
-            <div className="skills-container-item">
-              <img src={Python_Logo} alt="Python Logo" height={35} width={35} />
-              <p>Python</p>
-            </div>
-          </li>
-          <li>
-            <div className="skills-container-item">
               <img src={HTML_Logo} alt="HTML Logo" height={35} width={35} />
               <p>HTML</p>
             </div>
@@ -72,7 +49,18 @@ const Skills = () => {
           <li>
             <div className="skills-container-item">
               <img src={Sass_Logo} alt="Sass Logo" height={35} width={35} />
-              <p>Sass</p>
+              <p>Scss</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img
+                src={TailwindCSS_Logo}
+                alt="Tailwind CSS Logo"
+                height={35}
+                width={35}
+              />
+              <p>Tailwind CSS</p>
             </div>
           </li>
           <li>
@@ -106,6 +94,17 @@ const Skills = () => {
           <li>
             <div className="skills-container-item">
               <img
+                src={NextJS_Logo}
+                alt="Next.js Logo"
+                height={35}
+                width={35}
+              />
+              <p>Next.js</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img
                 src={Material_UI_Logo}
                 alt="Material UI Logo"
                 height={35}
@@ -134,18 +133,6 @@ const Skills = () => {
                 width={35}
               />
               <p>Express.js</p>
-            </div>
-          </li>
-          <li>
-            <div className="skills-container-item">
-              <img src={Flask_Logo} alt="Flask Logo" height={35} width={35} />
-              <p>Flask</p>
-            </div>
-          </li>
-          <li>
-            <div className="skills-container-item">
-              <img src={Dotnet_Logo} alt=".NET Logo" height={35} width={35} />
-              <p>.NET</p>
             </div>
           </li>
           <li>
@@ -184,8 +171,38 @@ const Skills = () => {
           </li>
           <li>
             <div className="skills-container-item">
-              <img src={AWS_Logo} alt="AWS Logo" height={35} width={35} />
-              <p>AWS</p>
+              <img src={Python_Logo} alt="Python Logo" height={35} width={35} />
+              <p>Python</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={Flask_Logo} alt="Flask Logo" height={35} width={35} />
+              <p>Flask</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={C_Sharp_Logo} alt="C# Logo" height={35} width={35} />
+              <p>C#</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={Dotnet_Logo} alt=".NET Logo" height={35} width={35} />
+              <p>.NET</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={CPP_Logo} alt="C++ Logo" height={35} width={35} />
+              <p>C++</p>
+            </div>
+          </li>
+          <li>
+            <div className="skills-container-item">
+              <img src={Java_Logo} alt="Java Logo" height={35} width={35} />
+              <p>Java</p>
             </div>
           </li>
           <li>
