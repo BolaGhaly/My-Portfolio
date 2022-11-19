@@ -1,5 +1,5 @@
 import { GrGithub, GrLinkedin } from "react-icons/gr";
-import GA_Event from "./GA_Event";
+import GA_Event from "../utils/GA_Event";
 
 const Footer = () => {
   return (

@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { SiLinkedin } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
-import GA_Event from "./GA_Event";
+import GA_Event from "../utils/GA_Event";
 
 const Header = () => {
   return (

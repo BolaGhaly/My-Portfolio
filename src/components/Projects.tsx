@@ -1,5 +1,5 @@
 import { ImGithub } from "react-icons/im";
-import GA_Event from "./GA_Event";
+import GA_Event from "../utils/GA_Event";
 
 const Projects = () => {
   return (

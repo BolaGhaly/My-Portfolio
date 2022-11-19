@@ -1,4 +1,4 @@
-import GA_Event from "./GA_Event";
+import GA_Event from "../utils/GA_Event";
 
 const ContactMe = () => {
   const formID = `https://formspree.io/f/${process.env.REACT_APP_FORM_ID}`;

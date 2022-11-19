@@ -8,7 +8,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
-import GA_Event from "./GA_Event";
+import GA_Event from "../utils/GA_Event";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineFileText } from "react-icons/ai";
 import { SiLinkedin } from "react-icons/si";
