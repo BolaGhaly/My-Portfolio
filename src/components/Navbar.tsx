@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -14,12 +14,11 @@ import { AiOutlineFileText } from "react-icons/ai";
 import { SiLinkedin } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
 
-
 const navItems = ["Home", "About", "Skills", "Projects", "Contact Me"];
 const navHRefs = ["#home", "#about", "#skills", "#projects", "#contact-me"];
 
 const Navbar = () => {
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
