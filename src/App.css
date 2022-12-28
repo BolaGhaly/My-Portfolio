@@ -100,6 +100,7 @@ li {
 .MuiTouchRipple-root {
   display: none !important;
 }
+
 /*------------------------- Navbar -------------------------*/
 .hover-underline-animation {
   display: inline-block;
@@ -169,17 +170,28 @@ li {
 }
 
 .navbar-name-black {
+  border-bottom: 1px solid rgb(32, 32, 32) !important;
+  background-color: #fff !important;
+  padding: 0 !important;
+}
+
+.navbar-name-black a {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 23px;
   padding: 15px 0;
-  color: rgb(0, 0, 0);
-  border-bottom: 1px solid rgb(32, 32, 32);
-  font-size: 23px !important;
 }
 
 .navbar-name-white {
+  margin: 0 0 0 32px;
+}
+
+.navbar-name-white a {
   text-shadow: var(--black-font-shadow);
   color: var(--white-font);
-  margin: 0 0 0 32px !important;
   font-size: 20px !important;
+  background-color: var(--navbar_footer_bg);
 }
 
 .lg-nav-box {

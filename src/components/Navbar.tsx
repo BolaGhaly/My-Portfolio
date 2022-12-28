@@ -26,8 +26,10 @@ const Navbar = () => {
 
   const drawer = (
     <Box sx={{ textAlign: "center", width: "200px" }}>
-      <h1 className="navbar-name-black">BG</h1>
       <List sx={{ padding: "0" }} onClick={handleDrawerToggle}>
+        <ListItemButton className="navbar-name-black">
+          <a href="#home">BG</a>
+        </ListItemButton>
         {navItems.map((item, i) => (
           <ListItem sx={{ padding: "0" }} key={item}>
             <ListItemButton
@@ -103,7 +105,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav>
+    <>
       <AppBar component="nav">
         <Toolbar className="main-nav">
           <IconButton
@@ -123,7 +125,10 @@ const Navbar = () => {
           </IconButton>
 
           <div className="lg-nav">
-            <h1 className="navbar-name-white">BG</h1>
+            <button className="navbar-name-white">
+              <a href="#home">BG</a>
+            </button>
+
             <Box className="lg-nav-box">
               {navItems.map((item, i) => (
                 <Button key={item}>
@@ -158,7 +163,7 @@ const Navbar = () => {
           {drawer}
         </Drawer>
       </Box>
-    </nav>
+    </>
   );
 };
 
