@@ -38,7 +38,7 @@ const Footer = () => {
           <span>Bola Ghaly's GitHub Profile</span>
         </a>
       </div>
-      <p>Copyright &copy; 2022 by Bola Ghaly. All rights reserved.</p>
+      <p>Copyright &copy; 2023 by Bola Ghaly. All rights reserved.</p>
     </footer>
   );
 };
