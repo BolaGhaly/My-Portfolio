@@ -1,4 +1,4 @@
-Copyright (c) 2022 Bola Ghaly
+Copyright (c) 2023 Bola Ghaly
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
