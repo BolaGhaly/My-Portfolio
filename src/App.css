@@ -5,7 +5,7 @@
   --navbar_footer_bg: #3a3a3a;
   --white-font: rgb(240, 240, 240);
   --white-font-hover: rgb(215, 215, 215);
-  --black-font-shadow: black 0px 0px 4px;
+  --black-font-shadow: black 0px 0px 2px;
   --blue: #10538d;
 }
 
@@ -214,8 +214,8 @@ li {
   font-family: "Poppins", sans-serif;
   color: var(--white-font);
   text-shadow: var(--black-font-shadow);
-  font-size: 1.12rem;
-  font-weight: 500;
+  font-size: 1.125rem;
+  font-weight: 400;
   text-transform: capitalize;
 }
 
@@ -553,7 +553,7 @@ li {
 .skills-container-item p {
   padding: 10px 0 10px 0;
   color: black;
-  font-size: 15px;
+  font-size: 0.875rem;
 }
 
 /*---------------------------- Projects ---------------------------*/

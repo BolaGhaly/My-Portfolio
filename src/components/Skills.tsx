@@ -17,7 +17,7 @@ const Skills = () => {
             );
           })}
         </ul>
-        <p className="skills-p">...and learning more everyday!</p>
+        <p className="skills-p">...and learning more every day!</p>
       </div>
     </section>
   );
