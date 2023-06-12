@@ -13,6 +13,7 @@ import { FiMenu } from "react-icons/fi";
 import { AiOutlineFileText } from "react-icons/ai";
 import { SiLinkedin } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
+import BG_Logo from "../assets/navbar/BG_Logo";
 
 const navItems = ["Home", "About", "Skills", "Projects", "Contact Me"];
 const navHRefs = ["#home", "#about", "#skills", "#projects", "#contact-me"];
@@ -28,7 +29,9 @@ const Navbar = () => {
     <Box sx={{ textAlign: "center", width: "200px" }}>
       <List sx={{ padding: "0" }} onClick={handleDrawerToggle}>
         <ListItemButton className="navbar-name-black">
-          <a href="#home">BG</a>
+          <a href="#home">
+            <BG_Logo />
+          </a>
         </ListItemButton>
         {navItems.map((item, i) => (
           <ListItem sx={{ padding: "0" }} key={item}>
@@ -126,9 +129,10 @@ const Navbar = () => {
 
           <div className="lg-nav">
             <button className="navbar-name-white">
-              <a href="#home">BG</a>
+              <a href="#home">
+                <BG_Logo />
+              </a>
             </button>
-
             <Box className="lg-nav-box">
               {navItems.map((item, i) => (
                 <Button key={item}>
