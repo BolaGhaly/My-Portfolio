@@ -28,8 +28,8 @@ const Navbar = () => {
   const drawer = (
     <Box sx={{ textAlign: "center", width: "200px" }}>
       <List sx={{ padding: "0" }} onClick={handleDrawerToggle}>
-        <ListItemButton className="navbar-name-black">
-          <a href="#home">
+        <ListItemButton className="navbar-name-black" title="BG">
+          <a href="#home" title="BG">
             <BG_Logo />
           </a>
         </ListItemButton>
@@ -128,8 +128,8 @@ const Navbar = () => {
           </IconButton>
 
           <div className="lg-nav">
-            <button className="navbar-name-white">
-              <a href="#home">
+            <button className="navbar-name-white" title="BG">
+              <a href="#home" title="BG">
                 <BG_Logo />
               </a>
             </button>
