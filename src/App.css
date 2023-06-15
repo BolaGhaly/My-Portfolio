@@ -500,6 +500,13 @@ li {
   font-size: 17px;
 }
 
+.about-links, .about-links:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 110, 184);
+  text-decoration-thickness: 3px;
+}
+
 /*---------------------------- Skills ---------------------------*/
 .skills-section {
   padding-top: var(--my-pt);
