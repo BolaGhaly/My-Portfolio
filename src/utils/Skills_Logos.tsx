@@ -83,7 +83,7 @@ const Skills_Logos = [
   {
     src: Sass_Logo,
     alt: "Sass/Scss Logo",
-    p: "Sass/Scss",
+    p: "SASS/SCSS",
   },
   {
     src: Material_UI_Logo,
